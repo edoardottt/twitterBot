@@ -1,4 +1,4 @@
-# twitterBot 🤖
+# twitterBot v 1.0🤖
 A Twitter Bot made by me using Python and some its libriaries.
 ------------------------------------------------------------
 REQUIREMENTS 📣
@@ -12,9 +12,9 @@ REQUIREMENTS 📣
 DESCRIPTION 🔦
 -------------------------------------------------
 It uses selenium, time, random, datetime, getopt and sys libraries.
-It try to login with an email and a password on Twitter, then brings the hashtag/hashtags as input and search for
+It tries to login with an email and a password on Twitter, then brings the hashtag/hashtags as input and search for
 some tweets to like and maybe retweet.
-Why maybe? because it only retweet the 50% of all tweets reached (but put likes on all).
+Why maybe? because it only retweets the 50% of all tweets reached (but put likes on all).
 
 -------------------------------------------------
 USAGE 🚀
@@ -24,7 +24,7 @@ Type on command line:
 
 python twitterbot.py -u your_email -p your_password -h hashtags
 You have to insert instead of those values your personal credentials.
-For multiple hashtags separate it by a comma (no space):
+For using multiple hashtags, separate them by a comma (no space):
 e.g. -h climatechange,p,developer
 
 -------------------------------------------------
