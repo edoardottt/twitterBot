@@ -4,27 +4,36 @@ A Twitter Bot made by me using Python and some its libriaries.
 REQUIREMENTS 📣
 -----------------------------------------------------
 - Mozilla Firefox
+
 - Python 
+
 - geckodriver https://github.com/mozilla/geckodriver/releases
+
 - It works only with desktop-type Twitter website window
 
 -------------------------------------------------
 DESCRIPTION 🔦
 -------------------------------------------------
 It uses selenium, time, random, datetime, getopt and sys libraries.
+
 It tries to login with an email and a password on Twitter, then brings the hashtag/hashtags as input and search for
 some tweets to like and maybe retweet.
+
 Why maybe? because it only retweets the 50% of all tweets reached (but put likes on all).
 
 -------------------------------------------------
 USAGE 🚀
 -------------------------------------------------
 Assuming you are in the same folder of the script:
+
 Type on command line:
 
 python twitterbot.py -u your_email -p your_password -h hashtags
+
 You have to insert instead of those values your personal credentials.
+
 For using multiple hashtags, separate them by a comma (no space):
+
 e.g. -h climatechange,p,developer
 
 -------------------------------------------------
