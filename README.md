@@ -1,4 +1,4 @@
-# twitterBot v 1.0🤖
+# twitterBot v 1.1 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 ------------------------------------------------------------
@@ -57,6 +57,14 @@ DOWNLOAD 📡
 GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
 
 Download by Browser on: https://github.com/edoardottt/twitterBot
+
+
+----------------------------------------------
+VERSIONING
+--------------------------------------------
+
+v 1.1:
+      Catching some known Exceptions
 
 --------------------------
 If you liked it drop a :star:
