@@ -114,6 +114,7 @@ class TwitterBot:
         print('Finished!')
 
 if((email_email!='')and(email_password!='')and(len(hashtags)!=0)):
+	print("https://www.edoardoottavianelli.it")
     edoBot = TwitterBot(email_email,email_password,0,0,hashtags)
     edoBot.login()
     edoBot.add_links()
