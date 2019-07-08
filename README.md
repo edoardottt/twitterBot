@@ -14,7 +14,7 @@ REQUIREMENTS 📣
 - It works only with desktop-type Twitter website window
 
 -------------------------------------------------
-DESCRIPTION 🔦
+DESCRIPTION 🔦 
 -------------------------------------------------
 
 It uses selenium, time, random, datetime, getopt, sqlite3, os and sys libraries.
@@ -103,7 +103,7 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 
 
 ----------------------------------------------
-VERSIONING
+VERSIONING books
 --------------------------------------------
 
 **v 1.2:**
