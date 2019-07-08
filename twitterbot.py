@@ -52,7 +52,12 @@ class TwitterBot:
         self.retweets = 0
         self.hashtags = hashtags
         self.links = []
-        self.bot = webdriver.Firefox()
+        try:
+            self.bot = webdriver.Firefox()
+        except Exception as ex:
+            print('Error n.1:')
+            print('Make sure you have Firefox installed')
+            
         
     def generate_random(self):
         rand = random.randint(6,13)
@@ -68,13 +73,17 @@ class TwitterBot:
         bot = self.bot
         bot.get('https://twitter.com/')
         time.sleep(self.generate_random())
-        email = bot.find_element_by_class_name("email-input")
-        password = bot.find_element_by_name('session[password]')
-        email.clear()
-        password.clear()
-        email.send_keys(self.username)
-        password.send_keys(self.password)
-        password.send_keys(Keys.RETURN)
+        try:
+            email = bot.find_element_by_class_name("email-input")
+            password = bot.find_element_by_name('session[password]')
+            email.clear()
+            password.clear()
+            email.send_keys(self.username)
+            password.send_keys(self.password)
+            password.send_keys(Keys.RETURN)
+        except Exception as ex:
+            print('Error n.2:')
+            print('Make sure that your Firefox window are in Desktop mode')
         time.sleep(self.generate_random())
         print('Logged in as '+self.username+' !')
         
@@ -114,7 +123,6 @@ class TwitterBot:
         print('Finished!')
 
 if((email_email!='')and(email_password!='')and(len(hashtags)!=0)):
-	print("https://www.edoardoottavianelli.it")
     edoBot = TwitterBot(email_email,email_password,0,0,hashtags)
     edoBot.login()
     edoBot.add_links()
