@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jul  8 14:19:23 2019
+
+@author: edoardottt
+"""
+
+import os
+import sqlite3
+
+db_filename = 'database.db'
+db_is_new = not os.path.exists(db_filename)
+conn = sqlite3.connect(db_filename)
+
+def create_stat(conn, data):
+ 
+    sql = ''' INSERT INTO analytics VALUES(?,?,?,?) '''
+    cur = conn.cursor()
+    cur.execute(sql, data)
+    conn.commit()
+
+def add_stat(username,timestamp,likes,retweets):
+    if db_is_new:
+        print('Error n.3')
+        print('Noone database detected.')
+        print('Execute the initdb.py file by typing in your command line:')
+        print('python initdb.py')
+    else:
+        data = (username,timestamp,likes,retweets)
+        create_stat(conn,data)

@@ -4,13 +4,20 @@
 Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
+
+version = 1.2
 """
 
 #VARIABLES TO CHANGE-----------------------------
 email_email = ''
 email_password = ''
+password_flag = False
 hashtags = []
 connection = 2
+hashtag_flag = False
+stat_flag = False
+my_flag = False
+limit = 50000
 #-----------------------------------------------
 
 from selenium import webdriver
@@ -19,29 +26,30 @@ import time
 import random
 import datetime
 import getopt,sys
+import check_user
+import add_result
+import analyze_stat
+import usage
 
-version = '1.0'
 
-options,remainder =getopt.getopt(sys.argv[1:], 'u:p:h:',['username','password','hashtags'])
+options,remainder =getopt.getopt(sys.argv[1:], 'u:p:h:sml',['username','password','hashtags','stat','mine'])
 for opt, arg in options:
     if opt in ('-u','--username'):
         email_email = arg
     elif opt in ('-p','--password'):
         email_password = arg
+        password_flag = True
     elif opt in ('-h','--hashtags'):
-        hashtags = arg.split(',')
-        
-        
-def print_usage():
-    print('Usage: python twitterbot.py -u [value] -p [value] -h [values separated by comma]')
-    print('-u or --username is your twitter username(e-mail)')
-    print('-p or --password is your twitter account password')
-    print('-h or --hashtags is/are the hashtag[s] you want to "follow"')
-    print('If you want to insert multiple hashtags you have to separated them by comma:')
-    print('e.g. -h climatechange,techtips,python')
-    print('----------------------------------')
-    print('https://www.edoardoottavianelli.it')
-    print('----------------------------------')
+        try:
+            hashtag_flag = True
+            hashtags = arg.split(',')
+        except Exception as ex:
+            usage.print_usage()
+            sys.exit()
+    elif opt in ('-s','--stat'):
+        stat_flag = True
+    elif opt in ('-m','--mine'):
+        my_flag = True
 
 class TwitterBot:
     
@@ -52,12 +60,7 @@ class TwitterBot:
         self.retweets = 0
         self.hashtags = hashtags
         self.links = []
-        try:
-            self.bot = webdriver.Firefox()
-        except Exception as ex:
-            print('Error n.1:')
-            print('Make sure you have Firefox installed')
-            
+        self.bot = webdriver.Firefox()
         
     def generate_random(self):
         rand = random.randint(6,13)
@@ -81,11 +84,21 @@ class TwitterBot:
             email.send_keys(self.username)
             password.send_keys(self.password)
             password.send_keys(Keys.RETURN)
+            time.sleep(self.generate_random())
+            try:
+                auth_flag = bot.find_element_by_css_selector("h1.Icon.Icon--bird.bird-topbar-etched")
+                if (auth_flag != None):
+                    print('Logged in as '+self.username+' !')
+                    return True
+            except Exception as ex:
+                print('Error n.1:')
+                print('Invalid Credentials.')
+                sys.exit()
+            
         except Exception as ex:
             print('Error n.2:')
             print('Make sure that your Firefox window are in Desktop mode')
-        time.sleep(self.generate_random())
-        print('Logged in as '+self.username+' !')
+            sys.exit()
         
     def add_links(self):
         print('adding links...')
@@ -100,10 +113,22 @@ class TwitterBot:
         random.shuffle(self.links)
         print('links added!')
         
+    def add_links_my_home(self):
+        print('adding links...')
+        bot = self.bot
+        for i in range(6):
+            bot.execute_script('window.scroll(0,document.body.scrollHeight)')
+            time.sleep(connection)
+        time.sleep(connection)
+        tweets = bot.find_elements_by_class_name('tweet')
+        self.links = [elem.get_attribute('data-permalink-path') for elem in tweets]
+        random.shuffle(self.links)
+        print('links added!')
+        
     def crawl(self):
         print('TwitterBot started!')
         for link in self.links:
-            if(not link is None):
+            if((not link is None) and (self.likes<limit)):
                 self.bot.get('https://twitter.com'+link)
                 try:
                     self.bot.find_element_by_class_name('HeartAnimation').click()
@@ -119,13 +144,24 @@ class TwitterBot:
                     print(result)
                     time.sleep(self.generate_random())
                 except Exception as ex:
-                    time.sleep(50)
+                    time.sleep(20)
         print('Finished!')
 
-if((email_email!='')and(email_password!='')and(len(hashtags)!=0)):
+if((email_email!='')and(email_password!='')and(not stat_flag)and((my_flag and (not hashtag_flag))or(hashtag_flag and (not my_flag)))):
     edoBot = TwitterBot(email_email,email_password,0,0,hashtags)
-    edoBot.login()
-    edoBot.add_links()
-    edoBot.crawl()
+    authenticated = edoBot.login()
+    if(authenticated):
+        check_user.check_if_user_exists(edoBot.username,edoBot.password)
+        if(hashtag_flag and(not my_flag)):
+            edoBot.add_links()
+        elif(my_flag and(not hashtag_flag)):
+            edoBot.add_links_my_home()
+        else:
+            usage.print_usage()
+        edoBot.crawl()
+        timee = datetime.datetime.now()
+        add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets)
+elif((email_email!='')and(not password_flag)and(not hashtag_flag)and(stat_flag)and(not my_flag)):
+    analyze_stat.check_stat(email_email)
 else:
-    print_usage()
+    usage.print_usage()
