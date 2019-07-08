@@ -16,10 +16,10 @@ DESCRIPTION 🔦
 -------------------------------------------------
 It uses selenium, time, random, datetime, getopt and sys libraries.
 
-It tries to login with an email and a password on Twitter, then brings the hashtag/hashtags as input and search for
-some tweets to like and maybe retweet.
+It tries to login with an email and a password on Twitter, then brings the hashtag/hashtags as input and looks for
+some tweets to like and maybe retweets.
 
-Why maybe? because it only retweets the 50% of all tweets reached (but put likes on all).
+Why maybe? Because It only retweets the 50% of all tweets reached (but puts likes on all).
 
 -------------------------------------------------
 USAGE 🚀
