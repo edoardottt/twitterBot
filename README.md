@@ -14,6 +14,16 @@ REQUIREMENTS 📣
 - It works only with desktop-type Twitter website window
 
 -------------------------------------------------
+DOES IT REALLY WORKS? :bar_chart:
+-------------------------------------------------
+**Take a look**
+With 3 days of usage:
+
+![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
+
+![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
+
+-------------------------------------------------
 DESCRIPTION 🔦 
 -------------------------------------------------
 
