@@ -1,4 +1,4 @@
-# twitterBot v 1.2 🤖
+# twitterBot v 1.2.1 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 -----------------------------------------------------
@@ -9,7 +9,7 @@ REQUIREMENTS 📣
 
 - Python 
 
-- geckodriver https://github.com/mozilla/geckodriver/releases
+- selenium (pip install selenium) OR geckodriver https://github.com/mozilla/geckodriver/releases
 
 - It works only with desktop-type Twitter website window
 
@@ -105,6 +105,10 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 ----------------------------------------------
 VERSIONING :books:
 --------------------------------------------
+
+**v 1.2.1:**
+
+        -Now It prints the links crawled in your home/search input field  
 
 **v 1.2:**
 
