@@ -111,19 +111,19 @@ class TwitterBot:
             tweets = bot.find_elements_by_class_name('tweet')
             self.links += [elem.get_attribute('data-permalink-path') for elem in tweets]
         random.shuffle(self.links)
-        print('links added!')
+        print(str(len(self.links))+' links added!')
         
     def add_links_my_home(self):
         print('adding links...')
         bot = self.bot
-        for i in range(6):
+        for i in range(2):
             bot.execute_script('window.scroll(0,document.body.scrollHeight)')
             time.sleep(connection)
         time.sleep(connection)
         tweets = bot.find_elements_by_class_name('tweet')
         self.links = [elem.get_attribute('data-permalink-path') for elem in tweets]
         random.shuffle(self.links)
-        print('links added!')
+        print(str(len(self.links))+' links added!')
         
     def crawl(self):
         print('TwitterBot started!')
