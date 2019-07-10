@@ -5,7 +5,7 @@ Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
 
-version = 1.2
+version = 1.3
 """
 
 #VARIABLES TO CHANGE-----------------------------
@@ -19,13 +19,16 @@ stat_flag = False
 my_flag = False
 limit = 50000
 #-----------------------------------------------
-
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import getopt,sys
+try:
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+except Exception as ex:
+    print('Execute "pip install selenium"')
+    sys.exit()
 import time
 import random
 import datetime
-import getopt,sys
 import check_user
 import add_result
 import analyze_stat
@@ -116,7 +119,7 @@ class TwitterBot:
     def add_links_my_home(self):
         print('adding links...')
         bot = self.bot
-        for i in range(2):
+        for i in range(3):
             bot.execute_script('window.scroll(0,document.body.scrollHeight)')
             time.sleep(connection)
         time.sleep(connection)
