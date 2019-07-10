@@ -1,17 +1,5 @@
-# twitterBot v 1.2.1 🤖
+# twitterBot v 1.3 🤖
 A Twitter Bot made by me using Python and some its libriaries.
-
------------------------------------------------------
-REQUIREMENTS 📣
------------------------------------------------------
-
-- Mozilla Firefox
-
-- Python 
-
-- selenium (pip install selenium) OR geckodriver https://github.com/mozilla/geckodriver/releases
-
-- It works only with desktop-type Twitter website window
 
 -------------------------------------------------
 DOES IT REALLY WORKS? :bar_chart:
@@ -49,6 +37,20 @@ Because for little numbers of hashtags or less trending hashtags or hashtags wit
 Instead for big numbers of hashtags or most trending hashtags or hashtags with high content (so the captured links > 80-90) It's more precise and almost exactly retweets 50% of them (with a low error like 2-3%).
 
 When It finish, It stores all the likes and retweets count in a SQLite3 database called database.db
+
+-----------------------------------------------------
+REQUIREMENTS 📣
+-----------------------------------------------------
+
+- Mozilla Firefox
+
+- Python > 3.6
+
+- selenium (pip install selenium) OR geckodriver https://github.com/mozilla/geckodriver/releases
+
+- matplotlib (python -m pip install -U matplotlib)
+
+- It works only with desktop-type Twitter website window
 
 -------------------------------------------------
 USAGE 🚀
@@ -116,9 +118,14 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 VERSIONING :books:
 --------------------------------------------
 
+**v 1.3:**
+
+        - Added a better visualization of statistics for every user with matplotlib
+        - With -s option now It shows a graphic that shows likes and retweets for each performance performed
+
 **v 1.2.1:**
 
-        -Now It prints the links crawled in your home/search input field  
+        - Now It prints the links crawled in your home/search input field  
 
 **v 1.2:**
 
