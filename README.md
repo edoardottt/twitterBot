@@ -38,6 +38,8 @@ Instead for big numbers of hashtags or most trending hashtags or hashtags with h
 
 When It finish, It stores all the likes and retweets count in a SQLite3 database called database.db
 
+With the -s option, It displays with a graphic the trend of likes and retweets that It made.
+
 -----------------------------------------------------
 REQUIREMENTS 📣
 -----------------------------------------------------
