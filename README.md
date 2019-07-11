@@ -86,7 +86,7 @@ Usage: python twitterbot.py -u [value] {-h [values separated by comma] OR -s OR 
 
         Insert only -u [value] -p [value] -m
 
-Some examples:
+**Some examples:**
 
 To start the bot searching for some words:
 
