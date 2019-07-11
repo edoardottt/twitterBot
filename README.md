@@ -1,21 +1,11 @@
-# twitterBot v 1.3 🤖
+# twitterBot v 1.3.1 🤖
 A Twitter Bot made by me using Python and some its libriaries.
-
--------------------------------------------------
-DOES IT REALLY WORKS? :bar_chart:
--------------------------------------------------
-**Take a look**
-With 3 days of usage:
-
-![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
-
-![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
 
 -------------------------------------------------
 DESCRIPTION 🔦 
 -------------------------------------------------
 
-It uses selenium, time, random, datetime, getopt, sqlite3, os and sys libraries.
+It uses selenium, time, random, datetime, getopt, sqlite3, os, getpass and sys libraries.
 
 It tries to login with an email and a password on Twitter. If credentials are correct, It looks into the database if that user logged in yet and so if There is a record with that username id.
 If there isn't that record, It creates it.
@@ -40,6 +30,16 @@ When It finish, It stores all the likes and retweets count in a SQLite3 database
 
 With the -s option, It displays with a graphic the trend of likes and retweets that It made.
 
+-------------------------------------------------
+DOES IT REALLY WORKS? :bar_chart:
+-------------------------------------------------
+**Take a look**
+With 3 days of usage:
+
+![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
+
+![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
+
 -----------------------------------------------------
 REQUIREMENTS 📣
 -----------------------------------------------------
@@ -60,17 +60,11 @@ USAGE 🚀
 
 Assuming you are in the same folder of the script:
 
-Usage: python twitterbot.py -u [value] -p [value] {-h [values separated by comma] OR -s OR -m}
+Usage: python twitterbot.py -u [value] {-h [values separated by comma] OR -s OR -m}
 
 -u or --username: 
 
         It's your twitter username(e-mail)
-
--p or --password:
-
-        It's your twitter account password.
-
-        **It's needed only if -h is present.**
 
 -h or --hashtags:
 
@@ -96,11 +90,11 @@ Some examples:
 
 To start the bot searching for some words:
 
- python twitterbot.py -u replace_your_email@mail.com -p replace_your_password -h trend,topics,twitter
+ python twitterbot.py -u replace_your_email@mail.com -h trend,topics,twitter
  
 To start the bot with your feed:
 
- python twitterbot.py -u replace_your_email@mail.com -p replace_your_password -m
+ python twitterbot.py -u replace_your_email@mail.com -m
  
 To see your account bot statistics
 
@@ -119,6 +113,13 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 ----------------------------------------------
 VERSIONING :books:
 --------------------------------------------
+
+**v 1.3.1:**
+
+        - Password input not readable
+        - Statistics aggregated per days
+        - Bad input handled. All error prints migrated on print_usage(error_code)
+        - When it's crawling, doesn't print milliseconds
 
 **v 1.3:**
 
