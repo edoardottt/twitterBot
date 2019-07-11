@@ -5,7 +5,7 @@ Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
 
-version = 1.3
+version = 1.3.1
 """
 
 #VARIABLES TO CHANGE-----------------------------
@@ -19,40 +19,38 @@ stat_flag = False
 my_flag = False
 limit = 50000
 #-----------------------------------------------
-import getopt,sys
-try:
-    from selenium import webdriver
-    from selenium.webdriver.common.keys import Keys
-except Exception as ex:
-    print('Execute "pip install selenium"')
-    sys.exit()
 import time
+import getopt
+import getpass
 import random
 import datetime
 import check_user
 import add_result
 import analyze_stat
-import usage
+import sys,usage
+try:
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+except Exception as ex:
+    usage.print_usage(3)
 
-
-options,remainder =getopt.getopt(sys.argv[1:], 'u:p:h:sml',['username','password','hashtags','stat','mine'])
-for opt, arg in options:
-    if opt in ('-u','--username'):
-        email_email = arg
-    elif opt in ('-p','--password'):
-        email_password = arg
-        password_flag = True
-    elif opt in ('-h','--hashtags'):
-        try:
-            hashtag_flag = True
-            hashtags = arg.split(',')
-        except Exception as ex:
-            usage.print_usage()
-            sys.exit()
-    elif opt in ('-s','--stat'):
-        stat_flag = True
-    elif opt in ('-m','--mine'):
-        my_flag = True
+try:
+    options,remainder =getopt.getopt(sys.argv[1:], 'u:h:sm',['username','hashtags','stat','mine'])
+    for opt, arg in options:
+        if opt in ('-u','--username'):
+            email_email = arg
+        elif opt in ('-h','--hashtags'):
+            try:
+                hashtag_flag = True
+                hashtags = arg.split(',')
+            except Exception as ex:
+                usage.print_usage(0)
+        elif opt in ('-s','--stat'):
+            stat_flag = True
+        elif opt in ('-m','--mine'):
+            my_flag = True
+except Exception as ex:
+    usage.print_usage(0)
 
 class TwitterBot:
     
@@ -66,7 +64,7 @@ class TwitterBot:
         self.bot = webdriver.Firefox()
         
     def generate_random(self):
-        rand = random.randint(6,13)
+        rand = random.randint(8,13)
         return rand
     def generate_mid_random(self):
         rand = random.randint(1,2)
@@ -94,14 +92,10 @@ class TwitterBot:
                     print('Logged in as '+self.username+' !')
                     return True
             except Exception as ex:
-                print('Error n.1:')
-                print('Invalid Credentials.')
-                sys.exit()
+                usage.print_usage(1)
             
         except Exception as ex:
-            print('Error n.2:')
-            print('Make sure that your Firefox window are in Desktop mode')
-            sys.exit()
+            usage.print_usage(2)
         
     def add_links(self):
         print('adding links...')
@@ -142,13 +136,14 @@ class TwitterBot:
                         time.sleep(2)
                         self.bot.find_element_by_class_name('RetweetDialog-retweetActionLabel').click()
                         self.retweets += 1
-                    result = "likes: " + str(self.likes)+' | '+"retweets: " + str(self.retweets)
-                    print(datetime.datetime.now())
-                    print(result)
+                    result = " | likes: " + str(self.likes)+' | '+"retweets: " + str(self.retweets)
+                    print(str(datetime.datetime.now())[:-7] + result)
                     time.sleep(self.generate_random())
                 except Exception as ex:
                     time.sleep(20)
         print('Finished!')
+
+email_password = getpass.getpass('Insert password for ' +email_email +':')
 
 if((email_email!='')and(email_password!='')and(not stat_flag)and((my_flag and (not hashtag_flag))or(hashtag_flag and (not my_flag)))):
     edoBot = TwitterBot(email_email,email_password,0,0,hashtags)
@@ -160,11 +155,11 @@ if((email_email!='')and(email_password!='')and(not stat_flag)and((my_flag and (n
         elif(my_flag and(not hashtag_flag)):
             edoBot.add_links_my_home()
         else:
-            usage.print_usage()
+            usage.print_usage(0)
         edoBot.crawl()
         timee = datetime.datetime.now()
         add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets)
 elif((email_email!='')and(not password_flag)and(not hashtag_flag)and(stat_flag)and(not my_flag)):
-    analyze_stat.check_stat(email_email)
+    analyze_stat.check_stat(email_email,email_password)
 else:
-    usage.print_usage()
+    usage.print_usage(0)
