@@ -5,7 +5,7 @@ A Twitter Bot made by me using Python and some its libriaries.
 DESCRIPTION 🔦 
 -------------------------------------------------
 
-It uses selenium, time, random, datetime, getopt, sqlite3, os, getpass and sys libraries.
+It uses selenium, matplotlib, getpass and other famous python libraries.
 
 It tries to login with an email and a password on Twitter. If credentials are correct, It looks into the database if that user logged in yet and so if There is a record with that username id.
 If there isn't that record, It creates it.
@@ -28,7 +28,7 @@ Instead for big numbers of hashtags or most trending hashtags or hashtags with h
 
 When It finish, It stores all the likes and retweets count in a SQLite3 database called database.db
 
-With the -s option, It displays with a graphic the trend of likes and retweets that It made.
+With the -s option (only if the password matches the word stored in the database on the same record of that username) It displays (with the help of matplotlib) a graphic that shows the amount of likes and retweets made per day.
 
 -------------------------------------------------
 DOES IT REALLY WORKS? :bar_chart:
