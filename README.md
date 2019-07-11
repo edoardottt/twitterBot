@@ -34,9 +34,10 @@ With the -s option (only if the password matches the word stored in the database
 DOES IT REALLY WORKS? :bar_chart:
 -------------------------------------------------
 **Take a look**
-With 3 days of usage:
 
 ![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
+
+With 3 days of usage:
 
 ![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
 
