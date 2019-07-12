@@ -1,4 +1,4 @@
-# twitterBot v 1.3.1 🤖
+# twitterBot v 1.3.2 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 -------------------------------------------------
@@ -10,9 +10,10 @@ It uses selenium, matplotlib, getpass and other famous python libraries.
 It tries to login with an email and a password on Twitter. If credentials are correct, It looks into the database if that user logged in yet and so if There is a record with that username id.
 If there isn't that record, It creates it.
 If the credentials aren't correct, throws an error.
-You can decide if search for some hashtag/hashtags as input and It will looks for
+It captures the followers count in your Home.
+You can decide if It searches for some hashtag/hashtags as input and It will looks for
 some tweets searching those words in the search input field.
-Instead you can crawl the tweets present in your Home.
+Instead you can crawl the tweets present in your Home Feed.
 The tweets links listed in the result pages are copied in a unique list X.
 The elements of this X list are shuffled and then It starts to search those tweets.
 Surely It presses the heart button on all of those, then It maybe retweets them.
@@ -23,12 +24,12 @@ Because It only retweets the ~50% of all tweets reached (but puts likes on all).
 
 Why ~50% and not exactly 50%?
 
-Because for little numbers of hashtags or less trending hashtags or hashtags with low content (so the captured links < 30-40) It retweets about 40-65% of all tweets reached.
-Instead for big numbers of hashtags or most trending hashtags or hashtags with high content (so the captured links > 80-90) It's more precise and almost exactly retweets 50% of them (with a low error like 2-3%).
+Because for little numbers of hashtags, less trending hashtags, hashtags with low content and few tweets in your feed (so the captured links < 30-40) It retweets about 40-65% of all tweets reached.
+Instead for big numbers of hashtags or most trending hashtags or hashtags with high content and so if your feed contains so many tweets (so the captured links > 80-90) It's more precise and almost exactly retweets 50% of them (with a low error like 3-4%).
 
 When It finish, It stores all the likes and retweets count in a SQLite3 database called database.db
 
-With the -s option (only if the password matches the word stored in the database on the same record of that username) It displays (with the help of matplotlib) a graphic that shows the amount of likes and retweets made per day.
+With the -s option (only if the password matches the word stored in the database on the same record of that username) It displays (with the help of matplotlib) a chart that shows the amount of likes, retweets and followers per day.
 
 -------------------------------------------------
 DOES IT REALLY WORKS? :bar_chart:
@@ -77,7 +78,7 @@ Usage: python twitterbot.py -u [value] {-h [values separated by comma] OR -s OR 
 
 -s or --stat:
 
-        If you want to see your stats account.
+        If you want to see your stats account with a chart.
 
         Insert only -u [value] -s
 
@@ -97,7 +98,7 @@ To start the bot with your feed:
 
  python twitterbot.py -u replace_your_email@mail.com -m
  
-To see your account bot statistics
+To see your account bot statistics with a chart:
 
  python twitterbot.py -u replace_your_email@mail.com -s
 
@@ -115,6 +116,12 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 VERSIONING :books:
 --------------------------------------------
 
+**v 1.3.2:**
+
+        - Crawling updates (time, likes and retweets) print on the same line and then flush it
+        - Added followers update that appears on the chart
+        - Added point marker on the chart
+        
 **v 1.3.1:**
 
         - Password input not readable
@@ -125,7 +132,7 @@ VERSIONING :books:
 **v 1.3:**
 
         - Added a better visualization of statistics for every user with matplotlib
-        - With -s option now It shows a graphic that shows likes and retweets for each performance performed
+        - With -s option now It shows a chart that shows likes and retweets for each performance performed
 
 **v 1.2.1:**
 
