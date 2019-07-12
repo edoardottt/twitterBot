@@ -60,7 +60,7 @@ REQUIREMENTS 📣
 USAGE 🚀
 -------------------------------------------------
 
-Assuming you are in the same folder of the script:
+Assuming you are in the same folder of the scripts and you run them with **python3**:
 
 Usage: python twitterbot.py -u [value] {-h [values separated by comma] OR -s OR -m}
 
