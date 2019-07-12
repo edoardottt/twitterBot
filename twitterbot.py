@@ -5,7 +5,7 @@ Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
 
-version = 1.3.1
+version = 1.3.2
 """
 
 #VARIABLES TO CHANGE-----------------------------
@@ -54,11 +54,12 @@ except Exception as ex:
 
 class TwitterBot:
     
-    def __init__(self, username, password,likes,retweets,hashtags):
+    def __init__(self, username, password,likes,retweets,hashtags,followers):
         self.username = username
         self.password = password
         self.likes = 0
         self.retweets = 0
+        self.followers = 0
         self.hashtags = hashtags
         self.links = []
         self.bot = webdriver.Firefox()
@@ -86,14 +87,16 @@ class TwitterBot:
             password.send_keys(self.password)
             password.send_keys(Keys.RETURN)
             time.sleep(self.generate_random())
+            auth_flag = None
             try:
                 auth_flag = bot.find_element_by_css_selector("h1.Icon.Icon--bird.bird-topbar-etched")
-                if (auth_flag != None):
-                    print('Logged in as '+self.username+' !')
-                    return True
             except Exception as ex:
                 usage.print_usage(1)
-            
+            if (auth_flag != None):
+                follower_elem = bot.find_element_by_css_selector('li.ProfileCardStats-stat:nth-child(3) > a:nth-child(1) > span:nth-child(2)')
+                self.followers = follower_elem.get_attribute('data-count')
+                print('Logged in as '+self.username+' !')
+                return True
         except Exception as ex:
             usage.print_usage(2)
         
@@ -123,7 +126,7 @@ class TwitterBot:
         print(str(len(self.links))+' links added!')
         
     def crawl(self):
-        print('TwitterBot started!')
+        print('TwitterBot started at '+str(datetime.datetime.now())[:-7]+" !")
         for link in self.links:
             if((not link is None) and (self.likes<limit)):
                 self.bot.get('https://twitter.com'+link)
@@ -137,16 +140,17 @@ class TwitterBot:
                         self.bot.find_element_by_class_name('RetweetDialog-retweetActionLabel').click()
                         self.retweets += 1
                     result = " | likes: " + str(self.likes)+' | '+"retweets: " + str(self.retweets)
-                    print(str(datetime.datetime.now())[:-7] + result)
+                    print(str(datetime.datetime.now())[:-7] + result,end='\r')
                     time.sleep(self.generate_random())
                 except Exception as ex:
                     time.sleep(20)
+        print('')
         print('Finished!')
 
 email_password = getpass.getpass('Insert password for ' +email_email +':')
 
 if((email_email!='')and(email_password!='')and(not stat_flag)and((my_flag and (not hashtag_flag))or(hashtag_flag and (not my_flag)))):
-    edoBot = TwitterBot(email_email,email_password,0,0,hashtags)
+    edoBot = TwitterBot(email_email,email_password,0,0,hashtags,0)
     authenticated = edoBot.login()
     if(authenticated):
         check_user.check_if_user_exists(edoBot.username,edoBot.password)
@@ -158,7 +162,7 @@ if((email_email!='')and(email_password!='')and(not stat_flag)and((my_flag and (n
             usage.print_usage(0)
         edoBot.crawl()
         timee = datetime.datetime.now()
-        add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets)
+        add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets,edoBot.followers)
 elif((email_email!='')and(not password_flag)and(not hashtag_flag)and(stat_flag)and(not my_flag)):
     analyze_stat.check_stat(email_email,email_password)
 else:

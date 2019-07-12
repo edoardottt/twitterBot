@@ -23,16 +23,17 @@ def create_table(conn, create_table_sql):
         print(e)
 
 if db_is_new:
-    sql_create_users_table = """ CREATE TABLE IF NOT EXISTS users (
+    sql_create_users_table = """ CREATE TABLE users (
                                         username text PRIMARY KEY,
                                         password text NOT NULL
                                     ); """
  
-    sql_create_analytics_table = """CREATE TABLE IF NOT EXISTS analytics (
+    sql_create_analytics_table = """CREATE TABLE analytics (
                                     username text NOT NULL,
                                     date date NOT NULL,
                                     likes integer NOT NULL,
                                     retweets integer NOT NULL,
+                                    followers integer NOT NULL,
                                     PRIMARY KEY (username,date)
                                     FOREIGN KEY (username) REFERENCES users (username)
                                 );"""

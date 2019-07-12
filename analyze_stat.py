@@ -24,8 +24,10 @@ def check_stat(username,password):
     timestamps = []
     likes = []
     retweets = []
+    followers = []
     d_likes = {}
     d_retweets = {}
+    d_followers = {}
     if(db_is_new):
         usage.print_usage(5)
     else:
@@ -43,6 +45,7 @@ def check_stat(username,password):
                     timestamps += [record[1]]
                     likes += [int(record[2])]
                     retweets += [int(record[3])]
+                    followers += [int(record[4])]
                 for i in range(len(timestamps)):
                     if (not(timestamps[i][:-16] in d_likes)):
                         for j in range(len(timestamps)):
@@ -55,21 +58,30 @@ def check_stat(username,password):
                                     d_retweets[timestamps[i][:-16]] += retweets[j]
                                 else:
                                     d_retweets[timestamps[i][:-16]] = retweets[j]
+                                if timestamps[i][:-16] in d_followers:
+                                    d_followers[timestamps[i][:-16]] -= d_followers[timestamps[i][:-16]]
+                                    d_followers[timestamps[i][:-16]] = followers[j]
+                                else:
+                                    d_followers[timestamps[i][:-16]] = followers[j]
                 plt.subplots_adjust(bottom=0.2)
-                plt.xticks( rotation=45 )
+                plt.xticks( rotation=50 )
                 ax=plt.gca()
                 ax.xaxis_date()
                 date = [i for i in d_likes.keys()]
                 likes_vector = [d_likes[i] for i in date]
                 retweets_vector = [d_retweets[i] for i in date]
-                plt.plot(date,likes_vector, '-r', label='likes')
-                plt.plot(date,retweets_vector, '-g', label='retweets')
-                plt.legend(loc='upper center')
+                followers_vector = [d_followers[i] for i in date]
+                plt.plot(date,likes_vector, '-r', marker='o', label='likes')
+                plt.plot(date,retweets_vector, '-g', marker='o', label='retweets')
+                plt.plot(date,followers_vector, '-b', marker='o', label='followers')
+                plt.legend(loc='upper right')
                 print('Total likes: '+str(sum(likes)))
                 print('Total retweets: '+str(sum(retweets)))
                 for a,b in zip(date, likes_vector):
                     plt.text(a, b, str(b))
                 for a,b in zip(date, retweets_vector):
+                    plt.text(a, b, str(b))
+                for a,b in zip(date, followers_vector):
                     plt.text(a, b, str(b))
                 plt.title('Statistics for '+username)
                 plt.subplots_adjust(left=None, bottom=0.13, right=0.98, top=0.94, wspace=None, hspace=None)

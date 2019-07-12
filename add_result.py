@@ -15,17 +15,17 @@ conn = sqlite3.connect(db_filename)
 
 def create_stat(conn, data):
  
-    sql = ''' INSERT INTO analytics VALUES(?,?,?,?) '''
+    sql = ''' INSERT INTO analytics VALUES(?,?,?,?,?) '''
     cur = conn.cursor()
     cur.execute(sql, data)
     conn.commit()
 
-def add_stat(username,timestamp,likes,retweets):
+def add_stat(username,timestamp,likes,retweets,followers):
     if db_is_new:
         print('Error n.3')
         print('Noone database detected.')
         print('Execute the initdb.py file by typing in your command line:')
         print('python initdb.py')
     else:
-        data = (username,timestamp,likes,retweets)
+        data = (username,timestamp,likes,retweets,followers)
         create_stat(conn,data)
