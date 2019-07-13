@@ -40,7 +40,7 @@ DOES IT REALLY WORKS? :bar_chart:
 
 In a week:
 
-![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
+![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/22.JPG)
 
 -----------------------------------------------------
 REQUIREMENTS 📣
