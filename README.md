@@ -36,7 +36,7 @@ DOES IT REALLY WORKS? :bar_chart:
 -------------------------------------------------
 **Take a look**
 
-![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
+![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/11.JPG)
 
 In a week:
 
