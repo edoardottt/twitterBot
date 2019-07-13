@@ -92,15 +92,15 @@ Usage: python twitterbot.py -u [value] {-h [values separated by comma] OR -s OR 
 
 To start the bot searching for some words:
 
- python twitterbot.py -u replace_your_email@mail.com -h trend,topics,twitter
+        python twitterbot.py -u replace_your_email@mail.com -h trend,topics,twitter
  
 To start the bot with your feed:
 
- python twitterbot.py -u replace_your_email@mail.com -m
+        python twitterbot.py -u replace_your_email@mail.com -m
  
 To see your account bot statistics with a chart:
 
- python twitterbot.py -u replace_your_email@mail.com -s
+        python twitterbot.py -u replace_your_email@mail.com -s
 
 
 -------------------------------------------------
