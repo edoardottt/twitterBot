@@ -38,7 +38,7 @@ DOES IT REALLY WORKS? :bar_chart:
 
 ![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
 
-With 3 days of usage:
+In a week:
 
 ![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
 
