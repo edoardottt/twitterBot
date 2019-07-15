@@ -4,6 +4,15 @@
 Created on Mon Jul  8 19:36:32 2019
 
 @author: edoardottt
+
+
+This file has a method called print_usage that brings as input a number (the error code).
+It prints the appropriate error code and error message.
+Then It quits.
+
+This file is under MIT License.
+
+
 """
 
 import sys
@@ -40,11 +49,11 @@ def print_usage(a):
         print('example:')
         print('')
         print('To start the bot searching for some words:')
-        print(' python twitterbot.py -u replace_your_email@mail.com -h trend,topics,twitter')
+        print('    python twitterbot.py -u replace_your_email@mail.com -h trend,topics,twitter')
         print('To start the bot with your feed:')
-        print(' python twitterbot.py -u replace_your_email@mail.com -m')
+        print('    python twitterbot.py -u replace_your_email@mail.com -m')
         print('To see your account bot statistics')
-        print(' python twitterbot.py -u replace_your_email@mail.com -s')
+        print('    python twitterbot.py -u replace_your_email@mail.com -s')
         print('----------------------------------')
         print('https://www.edoardoottavianelli.it')
         print('----------------------------------')

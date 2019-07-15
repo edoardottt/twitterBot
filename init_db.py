@@ -4,6 +4,12 @@
 Created on Mon Jul  8 13:41:22 2019
 
 @author: edoardottt
+
+Initialization of database.
+
+This file is under MIT License.
+
+
 """
 
 import os
@@ -13,8 +19,10 @@ db_filename = 'database.db'
 
 db_is_new = not os.path.exists(db_filename)
 
-conn = sqlite3.connect(db_filename)
+conn = sqlite3.connect(db_filename) # connect to the database or create it
 
+
+# ctreate table with the sql code input
 def create_table(conn, create_table_sql):
     try:
         c = conn.cursor()

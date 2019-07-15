@@ -4,8 +4,16 @@
 Created on Mon Jul  8 14:52:08 2019
 
 @author: edoardottt
+
+This file contains code for analyze the database.
+It uses matplotlib library to displays the result.
+It shows a chart with likes, retweets, followers per day.
+
+This file is under MIT License.
+
 """
 
+# all libraries required
 import os
 import sys
 import usage
@@ -20,32 +28,40 @@ db_filename = 'database.db'
 db_is_new = not os.path.exists(db_filename)
 conn = sqlite3.connect(db_filename)
 
+
+# check the statistics for a user
 def check_stat(username,password):
-    timestamps = []
-    likes = []
-    retweets = []
-    followers = []
-    d_likes = {}
-    d_retweets = {}
-    d_followers = {}
+
+    timestamps = []     # contains all the timestamps saved in the records
+    likes = []      # contains all the likes saved in the records
+    retweets = []   # contains all the retweets saved in the records
+    followers = []  # contains all the followers saved in the records
+    d_likes = {}    # dictionary with as keys = days & values = likes
+    d_retweets = {} # dictionary with as keys = days & values = retweets
+    d_followers = {}    # dictionary with as keys = days & values = followers
     if(db_is_new):
         usage.print_usage(5)
     else:
         cursor = conn.cursor()
+        # check if that user is in the database
         cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username,password))
         data = cursor.fetchone()
         if(data==None):
             print('There are no data for that username.')
             sys.exit()
+        # if that user exists
         cursor.execute("SELECT * FROM analytics WHERE username = ?", (username,))
         data=cursor.fetchall()
         if (data!=None):
             if(len(data)!=0):
                 for record in data:
-                    timestamps += [record[1]]
-                    likes += [int(record[2])]
-                    retweets += [int(record[3])]
-                    followers += [int(record[4])]
+                    timestamps += [record[1]]   # save the timestamp
+                    likes += [int(record[2])]   # save the likes count 
+                    retweets += [int(record[3])]    # save the retweets count
+                    followers += [int(record[4])]   # save the followers count
+                # In this for loop all the arrays here declared become dictionary in this way:
+                # All the likes, followers and retweets counts are aggregate per day.
+                # Remember timestamps[:-16] means yyyy-mm-dd
                 for i in range(len(timestamps)):
                     if (not(timestamps[i][:-16] in d_likes)):
                         for j in range(len(timestamps)):
@@ -63,8 +79,9 @@ def check_stat(username,password):
                                     d_followers[timestamps[i][:-16]] = followers[j]
                                 else:
                                     d_followers[timestamps[i][:-16]] = followers[j]
+                # adjust plot settings
                 plt.subplots_adjust(bottom=0.2)
-                plt.xticks( rotation=50 )
+                plt.xticks( rotation = 70 )
                 ax=plt.gca()
                 ax.xaxis_date()
                 date = [i for i in d_likes.keys()]
@@ -74,9 +91,15 @@ def check_stat(username,password):
                 plt.plot(date,likes_vector, '-r', marker='o', label='likes')
                 plt.plot(date,retweets_vector, '-g', marker='o', label='retweets')
                 plt.plot(date,followers_vector, '-b', marker='o', label='followers')
-                plt.legend(loc='upper right')
+                # if first > last element so the legend is shown on the right. Otherwise It's shown on the left
+                if (d_likes[list(d_likes.keys())[0]] > d_likes[list(d_likes.keys())[len(d_likes)-1]]):
+                    plt.legend(loc='upper right')
+                else:
+                    plt.legend(loc='upper left')
+                # Print the results
                 print('Total likes: '+str(sum(likes)))
                 print('Total retweets: '+str(sum(retweets)))
+                # add the number label in all points
                 for a,b in zip(date, likes_vector):
                     plt.text(a, b, str(b))
                 for a,b in zip(date, retweets_vector):

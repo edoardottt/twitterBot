@@ -4,6 +4,11 @@
 Created on Mon Jul  8 14:19:23 2019
 
 @author: edoardottt
+
+This file stores the final result of a crawling session in the database.
+
+This file is under MIT License.
+
 """
 
 import os
