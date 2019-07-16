@@ -89,6 +89,9 @@ class TwitterBot:
         else:
             return False
     
+    def close(self):
+        self.bot.close()
+    
     # login
     def login(self): 
         bot = self.bot
@@ -111,6 +114,10 @@ class TwitterBot:
             if (auth_flag != None):     # if the user is authorized
                 follower_elem = bot.find_element_by_css_selector('li.ProfileCardStats-stat:nth-child(3) > a:nth-child(1) > span:nth-child(2)')
                 self.followers = follower_elem.get_attribute('data-count') # get the followers count
+                #bot.find_element_by_css_selector('a.css-4rbku5:nth-child(7) > div:nth-child(1)').click()
+                #follower_elem = bot.find_element_by_css_selector('div.r-18u37iz:nth-child(5) > div:nth-child(2) > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)')
+                #self.followers = follower_elem.text # get the followers count
+                #bot.find_element_by_css_selector('a.r-1habvwh:nth-child(1) > div:nth-child(1)').click()
                 return True
         except Exception as ex:
             usage.print_usage(2)
@@ -186,6 +193,7 @@ if((email_email!='')and(email_password!='')and(not stat_flag)and((my_flag and (n
         else:
             usage.print_usage(0)
         edoBot.crawl() #here start the bot
+        edoBot.close()
         timee = datetime.datetime.now()
         add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets,edoBot.followers)
 # if password, username and -s 

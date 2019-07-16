@@ -12,6 +12,7 @@ This file is under MIT License.
 
 """
 
+
 import os
 import sqlite3
 
@@ -30,13 +31,12 @@ def create_table(conn, create_table_sql):
     except Exception as e:
         print(e)
 
-if db_is_new:
-    sql_create_users_table = """ CREATE TABLE IF NOT EXISTS users (
+sql_create_users_table = """ CREATE TABLE IF NOT EXISTS users (
                                         username text PRIMARY KEY,
                                         password text NOT NULL
                                     ); """
  
-    sql_create_analytics_table = """CREATE TABLE IF NOT EXISTS analytics (
+sql_create_analytics_table = """CREATE TABLE IF NOT EXISTS analytics (
                                     username text NOT NULL,
                                     date date NOT NULL,
                                     likes integer NOT NULL,
@@ -45,7 +45,7 @@ if db_is_new:
                                     PRIMARY KEY (username,date)
                                     FOREIGN KEY (username) REFERENCES users (username)
                                 );"""
-    if conn is not None:
-        create_table(conn, sql_create_users_table)
-        create_table(conn, sql_create_analytics_table)
+if conn is not None:
+    create_table(conn, sql_create_users_table)
+    create_table(conn, sql_create_analytics_table)
 conn.close()
