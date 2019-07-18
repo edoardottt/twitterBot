@@ -20,7 +20,7 @@ This file is under MIT License.
 
 
 """
-
+print('https://www.edoardoottavianelli.it')
 #VARIABLES TO CHANGE-----------------------------
 email_email = ''
 email_password = ''
