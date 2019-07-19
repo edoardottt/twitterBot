@@ -138,7 +138,7 @@ VERSIONING :books:
 
 **v 1.2:**
 
-      - Added some files that create an SQLite3 database and stores users and bot sessions
+        - Added some files that create an SQLite3 database and stores users and bot sessions
       
             table Users
             It contains all the users authenticated by twitter
@@ -146,12 +146,16 @@ VERSIONING :books:
             table analytics
             It contains all the likes and retweets count of all bot sessions
             
-      - Fixed some known bugs (invalid credentials, bad usage..)
-      - More readable usage printer
+        - Fixed some known bugs (invalid credentials, bad usage..)
+        - More readable usage printer
 
-**v 1.1:**
+**v1.1:**
 
-      - Catching some known Exceptions
+        - Catching some known Exceptions
+      
+**v1.0:**
+
+        - First release
 
 --------------------------
 If you liked it drop a :star:
