@@ -105,8 +105,6 @@ To see your account bot statistics with a chart:
 DOWNLOAD 📡
 -------------------------------------------------
 
-[v1.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.2)
-
 GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
 
 Download by Browser on: https://github.com/edoardottt/twitterBot
@@ -116,7 +114,7 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 VERSIONING :books:
 --------------------------------------------
 
-**v 1.3.2:**
+**[v1.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.2):**
 
         - Crawling updates (time, likes and retweets) print on the same line and then flush it
         - Added followers update that appears on the chart
