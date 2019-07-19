@@ -105,6 +105,8 @@ To see your account bot statistics with a chart:
 DOWNLOAD 📡
 -------------------------------------------------
 
+[v1.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.2)
+
 GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
 
 Download by Browser on: https://github.com/edoardottt/twitterBot
