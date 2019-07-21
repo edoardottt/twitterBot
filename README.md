@@ -102,7 +102,7 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
 
 To start the bot searching for some words:
 
-        python twitterbot.py -u replace_your_email@mail.com -h trend,topics,twitter
+        python twitterbot.py -u replace_your_email@mail.com -k trend,topics,twitter
  
 To start the bot with your feed:
 
@@ -141,7 +141,8 @@ VERSIONING :books:
                 - Added -h or --help option that calls print_usage(0)
                 - Added twitterBot_log.txt file function that catches the exceptions and write them into it. 
                 - If isn't present any option after -u calls print_usage(8) = Error 8: Bad input
-                - Check if the internet connection status is active, otherwise print_usage(6) = Error 6: no internet connection
+                - Check if the internet connection status is active, otherwise print_usage(6) = 
+                  Error 6: no internet connection
 
         CHANGED:
 
