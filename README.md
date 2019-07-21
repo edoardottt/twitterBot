@@ -139,7 +139,8 @@ VERSIONING :books:
 
                 - Added -i or --info option that calls print_usage(7) = version, github site, License.
                 - Added -h or --help option that calls print_usage(0)
-                - Added twitterBot_log.txt file function that catches the exceptions and write them into it. 
+                - Added twitterBot_log.txt file function that catches the exceptions 
+                  and write them into it. 
                 - If isn't present any option after -u calls print_usage(8) = Error 8: Bad input
                 - Check if the internet connection status is active, otherwise print_usage(6) = 
                   Error 6: no internet connection
