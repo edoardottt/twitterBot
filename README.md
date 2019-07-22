@@ -48,7 +48,7 @@ REQUIREMENTS 📣
 
 - Python >= 3.6
 
-- selenium (pip install selenium) OR geckodriver https://github.com/mozilla/geckodriver/releases
+- selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
 - matplotlib (python -m pip install -U matplotlib)
 
