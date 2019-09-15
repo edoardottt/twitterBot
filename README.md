@@ -40,6 +40,9 @@ DOES IT REALLY WORKS? :bar_chart:
 
 ![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
 
+
+![my insight (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
+
 -----------------------------------------------------
 REQUIREMENTS 📣
 -----------------------------------------------------
