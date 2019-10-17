@@ -7,13 +7,15 @@ DESCRIPTION 🔦
 
 It uses selenium, matplotlib, getpass and other famous python libraries.
 
-It tries to login with an email and a password on Twitter. If credentials are correct, It looks into the database if that user logged in yet and so if There is a record with that username id.
+It tries to login with an email and a password on Twitter. 
+If credentials are correct, It looks into the database if that user logged in yet and so if There is a record with that username id.
 If there isn't that record, It creates it.
 If the credentials aren't correct, throws an error.
+
 It captures the followers count in your Home.
-You can decide if It searches for some keywords as input and It will looks for
-some tweets searching those words in the search input field.
+You can decide if It searches for some keywords as input and It will looks for some tweets searching those words in the search input field.
 Instead you can crawl the tweets present in your Home Feed.
+
 The tweets links listed in the result pages are copied in a unique list X.
 The elements of this X list are shuffled and then It starts to search those tweets.
 Surely It presses the heart button on all of those, then It maybe retweets them.
@@ -25,6 +27,7 @@ Because It only retweets the ~50% of all tweets reached (but puts likes on all).
 Why ~50% and not exactly 50%?
 
 Because for little numbers, less trendingand low content keywords and few tweets in your feed (so the captured links < 30-40) It retweets about 40-65% of all tweets reached.
+
 Instead for big numbers, most trending, with high content keywords and so if your feed contains so many tweets (so the captured links > 80-90) It's more precise and almost exactly retweets 50% of them (with a low error like 3-4%).
 
 When It finish, It stores all the likes and retweets count in a SQLite3 database called database.db
@@ -47,15 +50,15 @@ DOES IT REALLY WORKS? :bar_chart:
 REQUIREMENTS 📣
 -----------------------------------------------------
 
-- Mozilla Firefox
+        - Mozilla Firefox
 
-- Python >= 3.6
+        - Python >= 3.6
 
-- selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
+        - selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
-- matplotlib (python -m pip install -U matplotlib)
+        - matplotlib (python -m pip install -U matplotlib)
 
-- It works only with desktop-type Twitter website window
+        - It works only with desktop-type Twitter website window
 
 -------------------------------------------------
 USAGE 🚀
