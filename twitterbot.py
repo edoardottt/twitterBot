@@ -172,7 +172,7 @@ class TwitterBot:
             tweets = bot.find_elements_by_class_name('tweet') # handle all the tweets shown
             self.links += [elem.get_attribute('data-permalink-path') for elem in tweets]    #get all the links of the tweets
         random.shuffle(self.links)
-        print(str(max(len(self.links),limit))+' links added!')
+        print(str(min(len(self.links),limit))+' links added!')
         
     #add tweets links from the personal feed    
     def add_links_my_home(self):
@@ -185,7 +185,7 @@ class TwitterBot:
         tweets = bot.find_elements_by_class_name('tweet')   # handle all the tweets shown
         self.links = [elem.get_attribute('data-permalink-path') for elem in tweets]    #get all the links of the tweets
         random.shuffle(self.links)
-        print(str(max(len(self.links),limit))+' links added!')
+        print(str(min(len(self.links),limit))+' links added!')
 
     # put likes and maybe rwtweets all the tweets reached
     def crawl(self):
