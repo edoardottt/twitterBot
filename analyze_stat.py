@@ -21,6 +21,7 @@ import sqlite3
 
 try:
     import matplotlib.pyplot as plt
+    plt.figure(num='twitterBot stats')
 except Exception as ex:
     usage.print_usage(4)
 
@@ -47,7 +48,7 @@ def check_stat(username,password):
         cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username,password))
         data = cursor.fetchone()
         if(data==None):
-            print('There are no data for that username.')
+            print("There aren't data for this username.")
             sys.exit()
         # if that user exists
         cursor.execute("SELECT * FROM analytics WHERE username = ?", (username,))
@@ -84,7 +85,7 @@ def check_stat(username,password):
                 plt.xticks( rotation = 70 )
                 ax=plt.gca()
                 ax.xaxis_date()
-                date = [i for i in d_likes.keys()]
+                date = list(d_likes.keys())
                 likes_vector = [d_likes[i] for i in date]
                 retweets_vector = [d_retweets[i] for i in date]
                 followers_vector = [d_followers[i] for i in date]
@@ -100,16 +101,16 @@ def check_stat(username,password):
                 print('Total likes: '+str(sum(likes)))
                 print('Total retweets: '+str(sum(retweets)))
                 # add the number label in all points
-                for a,b in zip(date, likes_vector):
-                    plt.text(a, b, str(b))
-                for a,b in zip(date, retweets_vector):
-                    plt.text(a, b, str(b))
-                for a,b in zip(date, followers_vector):
-                    plt.text(a, b, str(b))
+                for var_date,var_likes in zip(date, likes_vector):
+                    plt.text(var_date, var_likes, str(var_likes))
+                for var_date,var_retweets in zip(date, retweets_vector):
+                    plt.text(var_date, var_retweets, str(var_retweets))
+                for var_date,var_followers in zip(date, followers_vector):
+                    plt.text(var_date, var_followers, str(var_followers))
                 plt.title('Statistics for '+username)
                 plt.subplots_adjust(left=None, bottom=0.13, right=0.98, top=0.94, wspace=None, hspace=None)
                 plt.show()
             else:
-                print('There are no data for that username.')
+                print("There aren't data for this username.")
                 
     conn.close()

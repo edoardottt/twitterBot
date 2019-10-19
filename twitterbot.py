@@ -4,7 +4,7 @@ Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
 
-version = 1.3.3
+version = 1.3.3.1
 
 
 This is the main file.
@@ -32,7 +32,7 @@ stat_flag = False   # True if the -s option has been entered
 my_flag = False     # True if the -m option has been entered
 info_flag = False   # True if the -i option has been entered
 help_flag = False   # True if the -h option has been entered
-limit = 50000   # Limit of the links crawled
+limit = 5   # Limit of the links crawled
 
 #required libraries-----------------------------------------------
 import time
@@ -41,9 +41,7 @@ import socket
 import getpass
 import random
 import datetime
-import check_user
-import add_result
-import analyze_stat
+import check_user,add_result,analyze_stat
 import sys,usage
 
 #write log into log file
@@ -53,6 +51,11 @@ def write_log(ex):
     f.write(str(ex)+'\r\n')
     f.close()
 
+#Function that prints dinamically 
+def print_wait_links():
+    for i in range(5):
+        print('Collecting links'+'.'*i,end='\r')
+        time.sleep(1)
 try:
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
@@ -86,7 +89,7 @@ except Exception as ex:
     usage.print_usage(0)
 
 #check internet connection status
-def internet_check(host="8.8.8.8", port=53):
+def check_connection(host="8.8.8.8", port=53):
     """
     Host: 8.8.8.8 (google-public-dns-a.google.com)
     OpenPort: 53/tcp
@@ -159,7 +162,7 @@ class TwitterBot:
     
     # add tweets links from search input field by typing the hashtags entered
     def add_links(self):
-        print('Collecting links...')
+        print_wait_links()
         bot = self.bot
         for keyword in self.keywords:
             bot.get('https://twitter.com/search?q=' + keyword + '&src=typd')    # search the i-th hashtag
@@ -169,11 +172,11 @@ class TwitterBot:
             tweets = bot.find_elements_by_class_name('tweet') # handle all the tweets shown
             self.links += [elem.get_attribute('data-permalink-path') for elem in tweets]    #get all the links of the tweets
         random.shuffle(self.links)
-        print(str(len(self.links))+' links added!')
+        print(str(max(len(self.links),limit))+' links added!')
         
     #add tweets links from the personal feed    
     def add_links_my_home(self):
-        print('Collecting links...')
+        print_wait_links()
         bot = self.bot
         for i in range(7):
             bot.execute_script('window.scroll(0,document.body.scrollHeight)')   #scroll the page
@@ -182,7 +185,7 @@ class TwitterBot:
         tweets = bot.find_elements_by_class_name('tweet')   # handle all the tweets shown
         self.links = [elem.get_attribute('data-permalink-path') for elem in tweets]    #get all the links of the tweets
         random.shuffle(self.links)
-        print(str(len(self.links))+' links added!')
+        print(str(max(len(self.links),limit))+' links added!')
 
     # put likes and maybe rwtweets all the tweets reached
     def crawl(self):
@@ -207,7 +210,7 @@ class TwitterBot:
                     print(str(datetime.datetime.now())[:-7] + result,end='\r')
                     time.sleep(self.generate_random())
                 except Exception as ex:
-                    time.sleep(15)
+                    time.sleep(10)
         print('')
         print('Finished!')
 
@@ -217,7 +220,7 @@ if((email_email!='')and(not stat_flag)and((my_flag and (not keywords_flag))or(ke
     
     email_password = getpass.getpass('Insert password for ' +email_email +':') # password input via getpass
     edoBot = TwitterBot(email_email,email_password,0,0,keywords,0) #create the bot
-    network_status = internet_check()
+    network_status = check_connection()
     if (not network_status):
         usage.print_usage(6) # if the network connection isn't active
     authenticated = edoBot.login()  # login
