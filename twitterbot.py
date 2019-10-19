@@ -32,7 +32,7 @@ stat_flag = False   # True if the -s option has been entered
 my_flag = False     # True if the -m option has been entered
 info_flag = False   # True if the -i option has been entered
 help_flag = False   # True if the -h option has been entered
-limit = 5000   # Limit of the links crawled
+limit = 5   # Limit of the links crawled
 
 #required libraries-----------------------------------------------
 import time
@@ -56,6 +56,7 @@ def print_wait_links():
     for i in range(5):
         print('Collecting links'+'.'*i,end='\r')
         time.sleep(1)
+    print('')
 try:
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
