@@ -1,4 +1,4 @@
-# twitterBot v 1.3.3.1 🤖
+# twitterBot v1.3.3.1 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 -------------------------------------------------
