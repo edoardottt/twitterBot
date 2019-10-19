@@ -1,4 +1,4 @@
-# twitterBot v 1.3.3 🤖
+# twitterBot v 1.3.3.1 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 -------------------------------------------------
@@ -138,6 +138,14 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 ----------------------------------------------
 VERSIONING :books:
 --------------------------------------------
+
+**[v1.3.3.1](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.1):**
+
+        ADDED:
+                - Refactoring
+                - Added dynamical prints
+                - Setted the plot title
+                - Fixed some knows bugs (limit print, typing errors)
 
 **[v1.3.3](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3):**
 
