@@ -1,4 +1,4 @@
-# twitterBot v1.3.3.1 🤖
+# twitterBot 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
