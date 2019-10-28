@@ -7,7 +7,7 @@ A Twitter Bot made by me using Python and some its libriaries.
 ![win-build-success-badge](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
 ![linux-build-success-badge](https://github.com/edoardottt/twitterBot/blob/master/images/linux-build-success-badge.svg)
 
-Share it! [![Twitter](https://img.shields.io/twitter/url?style=social&url=http%3A%2F%2Ftwitter.com%2Fhome%3Fstatus%3Dhttps%3A%2F%2Fwww.edoardottt%2FtwitterBot)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.github.com%2FtwitterBot)
+Share it! [![Twitter](https://img.shields.io/twitter/url?style=social&url=http%3A%2F%2Ftwitter.com%2Fhome%3Fstatus%3Dhttps%3A%2F%2Fwww.edoardottt%2FtwitterBot)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.github.com%2Fedoardottt%2FtwitterBot)
 
 -------------------------------------------------
 DESCRIPTION 🔦 
