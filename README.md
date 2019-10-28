@@ -4,8 +4,8 @@ A Twitter Bot made by me using Python and some its libriaries.
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/edoardottt/twitterBot)
-[win-build-success-badge](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
-[linux-build-success-badge](https://github.com/edoardottt/twitterBot/blob/master/images/linux-build-success-badge.svg)
+![win-build-success-badge](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
+![linux-build-success-badge](https://github.com/edoardottt/twitterBot/blob/master/images/linux-build-success-badge.svg)
 
 -------------------------------------------------
 DESCRIPTION 🔦 
