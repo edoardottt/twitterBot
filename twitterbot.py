@@ -227,7 +227,7 @@ class TwitterBot:
         people = self.bot.find_elements_by_class_name("u-linkComplex-target")
         people = [elem.text for elem in people]
         random.shuffle(people)
-        print(len(people)+' accounts reached!')
+        print(str(len(people))+' accounts reached!')
         i = 0
         for elem in people:
             self.bot.get('https://twitter.com/'+ elem)
