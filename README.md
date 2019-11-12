@@ -1,6 +1,8 @@
 # twitterBot v1.3.3.2 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
+[win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
+
 -------------------------------------------------
 DESCRIPTION 🔦 
 -------------------------------------------------
