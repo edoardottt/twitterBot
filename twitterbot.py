@@ -192,7 +192,7 @@ class TwitterBot:
     def crawl(self):
         print('TwitterBot started at '+str(datetime.datetime.now())[:-7]+" !")
         for link in self.links:
-            if((not link) and (self.likes<limit)):  # if the tweets reached don't overcome the limit
+            if((link is not None) and (self.likes<limit)):  # if the tweets reached don't overcome the limit
                 self.bot.get('https://twitter.com'+link)    # get the tweet page
                 time.sleep(connection)
                 try:
