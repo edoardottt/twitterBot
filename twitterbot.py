@@ -4,7 +4,7 @@ Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
 
-version = 1.3.3.1
+version = 1.3.3.2
 
 
 This is the main file.
@@ -32,6 +32,7 @@ stat_flag = False   # True if the -s option has been entered
 my_flag = False     # True if the -m option has been entered
 info_flag = False   # True if the -i option has been entered
 help_flag = False   # True if the -h option has been entered
+follow_flag = False # True if the -f option has been entered
 limit = 5000   # Limit of the links crawled
 
 #required libraries-----------------------------------------------
@@ -66,7 +67,7 @@ except Exception as ex:
 
 # options input  
 try:
-    options,remainder =getopt.getopt(sys.argv[1:], 'u:k:smih',['username','keywords','stat','mine','info','help'])  # all the options allowed
+    options,remainder =getopt.getopt(sys.argv[1:], 'u:k:smihf:',['username','keywords','stat','mine','info','help','follow'])  # all the options allowed
     for opt, arg in options:
         if opt in ('-u','--username'):
             email_email = arg
@@ -85,6 +86,9 @@ try:
             info_flag = True
         elif opt in ('-h','--help'):
             help_flag = True
+        elif opt in ('-f','--follow'):
+            follow_flag = True
+            follow_user = arg
 except Exception as ex:
     write_log(ex)
     usage.print_usage(0)
@@ -152,10 +156,6 @@ class TwitterBot:
             if (auth_flag != None):     # if the user is authorized
                 follower_elem = bot.find_element_by_css_selector('li.ProfileCardStats-stat:nth-child(3) > a:nth-child(1) > span:nth-child(2)')
                 self.followers = follower_elem.get_attribute('data-count') # get the followers count
-                #bot.find_element_by_css_selector('a.css-4rbku5:nth-child(7) > div:nth-child(1)').click()
-                #follower_elem = bot.find_element_by_css_selector('div.r-18u37iz:nth-child(5) > div:nth-child(2) > a:nth-child(1) > span:nth-child(1) > span:nth-child(1)')
-                #self.followers = follower_elem.text # get the followers count
-                #bot.find_element_by_css_selector('a.r-1habvwh:nth-child(1) > div:nth-child(1)').click()
                 return True
         except Exception as ex:
             write_log(ex)
@@ -192,7 +192,7 @@ class TwitterBot:
     def crawl(self):
         print('TwitterBot started at '+str(datetime.datetime.now())[:-7]+" !")
         for link in self.links:
-            if((not link is None) and (self.likes<limit)):  # if the tweets reached don't overcome the limit
+            if((not link) and (self.likes<limit)):  # if the tweets reached don't overcome the limit
                 self.bot.get('https://twitter.com'+link)    # get the tweet page
                 time.sleep(connection)
                 try:
@@ -211,14 +211,41 @@ class TwitterBot:
                     print(str(datetime.datetime.now())[:-7] + result,end='\r')
                     time.sleep(self.generate_random())
                 except Exception as ex:
+                    write_log(ex)
                     time.sleep(10)
         print('')
         print('Finished!')
-
-
-# if -u and ( -m OR -k)
-if((email_email!='')and(not stat_flag)and((my_flag and (not keywords_flag))or(keywords_flag and (not my_flag)))):
     
+    def follow_people(self,user):
+        print('TwitterBot started at '+str(datetime.datetime.now())[:-7]+" !")
+        self.bot.get('https://twitter.com/'+ user)
+        time.sleep(connection)
+        self.bot.find_element_by_css_selector('li.ProfileNav-item:nth-child(2) > a:nth-child(1) > span:nth-child(3)').click()
+        for i in range(10):
+            self.bot.execute_script('window.scroll(0,document.body.scrollHeight)')   #scroll the page
+            time.sleep(connection)
+        people = self.bot.find_elements_by_class_name("u-linkComplex-target")
+        people = [elem.text for elem in people]
+        random.shuffle(people)
+        print(len(people)+' accounts reached!')
+        i = 0
+        for elem in people:
+            self.bot.get('https://twitter.com/'+ elem)
+            time.sleep(connection)
+            try:
+                i+=1
+                item = self.bot.find_element_by_css_selector('span.user-actions-follow-button:nth-child(2) > button:nth-child(1)')
+                item.click()
+            except Exception as ex:
+                write_log(ex)
+                continue
+            result = " | followed: " + str(i)+' |'
+            print(str(datetime.datetime.now())[:-7] + result,end='\r')
+            time.sleep(connection)
+        print('')
+        print('Finished!')
+        
+def build_Edo():
     email_password = getpass.getpass('Insert password for ' +email_email +':') # password input via getpass
     edoBot = TwitterBot(email_email,email_password,0,0,keywords,0) #create the bot
     network_status = check_connection()
@@ -230,6 +257,12 @@ if((email_email!='')and(not stat_flag)and((my_flag and (not keywords_flag))or(ke
             print('Welcome back, ' + edoBot.username + ' !')
         else:
             print('Logged in as '+edoBot.username+' !')
+    return edoBot
+
+# if -u and ( -m OR -k)
+if((email_email!='')and(not stat_flag) and(not follow_flag) and((my_flag and (not keywords_flag))or(keywords_flag and (not my_flag)))):
+    
+        edoBot = build_Edo()
         if(keywords_flag and(not my_flag)):
             edoBot.add_links()
         elif(my_flag and(not keywords_flag)):
@@ -242,16 +275,23 @@ if((email_email!='')and(not stat_flag)and((my_flag and (not keywords_flag))or(ke
         add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets,edoBot.followers)
         
 # if -u and -s 
-elif((email_email!='')and(not keywords_flag)and stat_flag and(not my_flag) and(not info_flag) and(not help_flag)):
+elif((email_email!='')and(not keywords_flag)and stat_flag and(not my_flag) and(not info_flag) and(not help_flag)and(not follow_flag)):
     email_password = getpass.getpass('Insert password for ' +email_email +':') # password input via getpass
     analyze_stat.check_stat(email_email,email_password)
     
 # if -i
-elif((email_email=='') and(not stat_flag)and(not my_flag)and(not keywords_flag)and(not help_flag)and(info_flag)):
+elif((email_email=='') and(not stat_flag)and(not my_flag)and(not keywords_flag)and(not help_flag)and(info_flag)and(not follow_flag)):
     usage.print_usage(7)
     
 # if -h
-elif((email_email=='') and(not stat_flag)and(not my_flag)and(not keywords_flag)and help_flag and(not info_flag)):
+elif((email_email=='') and(not stat_flag)and(not my_flag)and(not keywords_flag)and help_flag and(not info_flag)and(not follow_flag)):
     usage.print_usage(0)
+# if -f
+elif((email_email!='')and(not keywords_flag)and not(stat_flag) and follow_flag and(not my_flag) and(not info_flag) and(not help_flag)):
+    if follow_user=='' or not follow_user:
+        usage.print_usage(8)
+    edoBot = build_Edo()
+    edoBot.follow_people(follow_user)
+    edoBot.close()
 else:
     usage.print_usage(8)
