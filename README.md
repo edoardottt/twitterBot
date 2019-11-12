@@ -21,7 +21,7 @@ If there isn't that record, It creates it.
 If the credentials aren't correct, it throws an error.
 
 It captures the followers count in your Home.
-You can decide if It searches for some keywords as input and It will looks for some tweets searching those words in the search input field.
+You can decide if It searches for some keywords as input and It will look for some tweets searching those words in the search input field.
 Instead, you can crawl the tweets present in your Home Feed.
 
 The tweets links listed in the result pages are copied in a unique list X.
