@@ -1,4 +1,4 @@
-# twitterBot v1.3.3.1 🤖
+# twitterBot v1.3.3.2 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
 -------------------------------------------------
@@ -104,6 +104,13 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
         
         Insert only -h
         
+-f or --follow:
+
+        Insert an username. The bot will check for some
+        followers of that username and it tries to follow them.
+
+        Insert -f username
+        
 **Some examples:**
 
 To start the bot searching for some words:
@@ -138,6 +145,11 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 ----------------------------------------------
 VERSIONING :books:
 --------------------------------------------
+
+**[v1.3.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.1):**
+
+        ADDED:
+                - f option. Follow random accounts
 
 **[v1.3.3.1](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.1):**
 
