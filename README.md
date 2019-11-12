@@ -146,7 +146,7 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 VERSIONING :books:
 --------------------------------------------
 
-**[v1.3.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.1):**
+**[v1.3.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.2):**
 
         ADDED:
                 - f option. Follow random accounts
