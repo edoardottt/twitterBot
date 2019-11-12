@@ -1,6 +1,7 @@
 # twitterBot v1.3.3.2 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
+![python-version](https://github.com/edoardottt/twitterBot/blob/master/images/python-version.svg)
 ![win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
