@@ -57,7 +57,7 @@ REQUIREMENTS 📣
 
         - Mozilla Firefox
 
-        - Python >= 3.6
+        - Python >= 3.0
 
         - selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
