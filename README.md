@@ -1,4 +1,4 @@
-# twitterBot ��
+# twitterBot 🤖
 A Twitter Bot made by me using Python and some its libraries.
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -10,7 +10,7 @@ A Twitter Bot made by me using Python and some its libraries.
 Share it! [![Twitter](https://img.shields.io/twitter/url?style=social&url=http%3A%2F%2Ftwitter.com%2Fhome%3Fstatus%3Dhttps%3A%2F%2Fwww.edoardottt%2FtwitterBot)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.github.com%2Fedoardottt%2FtwitterBot)
 
 -------------------------------------------------
-DESCRIPTION �� 
+DESCRIPTION 📚
 -------------------------------------------------
 
 It uses selenium, matplotlib, getpass and other famous python libraries.
@@ -55,7 +55,7 @@ DOES IT REALLY WORKS? :bar_chart:
 ![my insight (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
 
 -----------------------------------------------------
-REQUIREMENTS ��
+REQUIREMENTS :grey_question:
 -----------------------------------------------------
 
   - Mozilla Firefox
@@ -69,7 +69,7 @@ REQUIREMENTS ��
   - It works only with desktop-type Twitter website window
 
 -------------------------------------------------
-USAGE ��
+USAGE :computer:
 -------------------------------------------------
 
 Assuming you are in the same folder of the scripts and you run them with **python3**:
@@ -135,7 +135,7 @@ Help doc.:
     python twitterbot.py -h
 
 -------------------------------------------------
-DOWNLOAD ��
+DOWNLOAD :satellite:
 -------------------------------------------------
 
 GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
