@@ -58,15 +58,15 @@ DOES IT REALLY WORKS? :bar_chart:
 REQUIREMENTS ��
 -----------------------------------------------------
 
-- Mozilla Firefox
+  - Mozilla Firefox
 
-- Python >= 3.6
+  - Python >= 3.6
 
-- selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
+  - selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
-- matplotlib (python -m pip install -U matplotlib)
+  - matplotlib (python -m pip install -U matplotlib)
 
-- It works only with desktop-type Twitter website window
+  - It works only with desktop-type Twitter website window
 
 -------------------------------------------------
 USAGE ��
@@ -76,63 +76,63 @@ Assuming you are in the same folder of the scripts and you run them with **pytho
 
 Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR -m} OR -i OR -h
 
--u or --username: 
+  -u or --username: 
 
-It's your twitter username(e-mail)
+    It's your twitter username(e-mail)
 
--k or --keywords:
+  -k or --keywords:
 
-It's/They are the keyword[s] you want to crawl.
+    It's/They are the keyword[s] you want to crawl.
 
-If you want to insert multiple keywords you have to separate them by comma:
+    If you want to insert multiple keywords you have to separate them by comma:
 
-e.g. -k climatechange,techtips,python
+    e.g. -k climatechange,techtips,python
 
--s or --stat:
+  -s or --stat:
 
-If you want to see your stats account with a chart.
+    If you want to see your stats account with a chart.
 
-Insert only -u [value] -s
+    Insert only -u [value] -s
 
--m or --mine:
+  -m or --mine:
 
-If you want to crawl your feed's tweets.
+    If you want to crawl your feed's tweets.
 
-Insert only -u [value] -m
+    Insert only -u [value] -m
 
--i or --info:
+  -i or --info:
 
-To see twitterBot info.
+    To see twitterBot info.
 
-Insert only -i
+    Insert only -i
 
--h or --help:
+  -h or --help:
 
-Help documentation
+    Help documentation
 
-Insert only -h
+    Insert only -h
 
 **Some examples:**
 
 To start the bot searching for some words:
 
-python twitterbot.py -u replace_your_email@mail.com -k trend,topics,twitter
+  python twitterbot.py -u replace_your_email@mail.com -k trend,topics,twitter
 
 To start the bot with your feed:
 
-python twitterbot.py -u replace_your_email@mail.com -m
+  python twitterbot.py -u replace_your_email@mail.com -m
 
 To see your account bot statistics with a chart:
 
-python twitterbot.py -u replace_your_email@mail.com -s
+  python twitterbot.py -u replace_your_email@mail.com -s
 
 To see info:
 
-python twitterbot.py -i
+  python twitterbot.py -i
 
 Help doc.:
 
-python twitterbot.py -h
+  python twitterbot.py -h
 
 -------------------------------------------------
 DOWNLOAD ��
@@ -149,74 +149,75 @@ VERSIONING :books:
 
 **[v1.3.3.1](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.1):**
 
-ADDED:
-- Refactoring
-- Added dynamical prints
-- Set the plot title
-- Fixed some knows bugs (limit print, typing errors)
+  ADDED:
+
+    - Refactoring
+    - Added dynamical prints
+    - Set the plot title
+    - Fixed some knows bugs (limit print, typing errors)
 
 **[v1.3.3](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3):**
 
-ADDED:
+  ADDED:
 
-- Added -i or --info option that calls print_usage(7) = version, github site, License.
-- Added -h or --help option that calls print_usage(0)
-- Added twitterBot_log.txt file function that catches the exceptions 
-and write them into it. 
-- If isn't present any option after -u calls print_usage(8) = Error 8: Bad input
-- Check if the internet connection status is active, otherwise print_usage(6) = 
-Error 6: no internet connection
+    - Added -i or --info option that calls print_usage(7) = version, github site, License.
+    - Added -h or --help option that calls print_usage(0)
+    - Added twitterBot_log.txt file function that catches the exceptions 
+    and write them into it. 
+    - If isn't present any option after -u calls print_usage(8) = Error 8: Bad input
+    - Check if the internet connection status is active, otherwise print_usage(6) = 
+    Error 6: no internet connection
 
-CHANGED:
+  CHANGED:
 
-- -h or --hashtags changed in -k or --keywords
+     -h or --hashtags changed in -k or --keywords
 
-REMOVED:
+  REMOVED:
 
-- Print the website URL on print_usage(0)
+    - Print the website URL on print_usage(0)
 
 **[v1.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.2):**
 
-- Crawling updates (time, likes and retweets) print on the same line and then flush it
-- Added followers update that appears on the chart
-- Added point marker on the chart
+    - Crawling updates (time, likes and retweets) print on the same line and then flush it
+    - Added followers update that appears on the chart
+    - Added point marker on the chart
 
 **v 1.3.1:**
 
-- Password input not readable
-- Statistics aggregated per days
-- Bad input handled. All error prints migrated on print_usage(error_code)
-- When it's crawling, doesn't print milliseconds
+    - Password input not readable
+    - Statistics aggregated per days
+    - Bad input handled. All error prints migrated on print_usage(error_code)
+    - When it's crawling, doesn't print milliseconds
 
 **v 1.3:**
 
-- Added a better visualization of statistics for every user with matplotlib
-- With -s option now It shows a chart that shows likes and retweets for each performance performed
+    - Added a better visualization of statistics for every user with matplotlib
+    - With -s option now It shows a chart that shows likes and retweets for each performance performed
 
 **v 1.2.1:**
 
-- Now It prints the links crawled in your home/search input field 
+    - Now It prints the links crawled in your home/search input field 
 
 **v 1.2:**
 
-- Added some files that create an SQLite3 database and stores users and bot sessions
+    - Added some files that create an SQLite3 database and stores users and bot sessions
 
-table Users
-It contains all the users authenticated by Twitter
+    table Users
+    It contains all the users authenticated by Twitter
 
-table analytics
-It contains all the likes and retweets count of all bot sessions
+    table analytics
+    It contains all the likes and retweets count of all bot sessions
 
-- Fixed some known bugs (Invalid credentials, bad usage..)
-- More readable usage printer
+    - Fixed some known bugs (Invalid credentials, bad usage..)
+    - More readable usage printer
 
 **v1.1:**
 
-- Catching some known Exceptions
+    - Catching some known Exceptions
 
 **v1.0:**
 
-- First release
+    - First release
 
 --------------------------
 If you liked it drop a :star:
