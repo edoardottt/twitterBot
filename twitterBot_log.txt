@@ -1,0 +1,2946 @@
+-----------2019-11-12 12:05:53.463757----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:09:50.041505----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:14:43.833797----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:16:14.780112----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:16:43.141470----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:16:54.821212----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:17:04.280182----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:18:07.541308----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 12:18:15.729375----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:18:44.397999----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:20:49.007074----------
+Message: Unable to locate element: .HeartAnimation
+
+-----------2019-11-12 12:21:07.797152----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:21:18.250132----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:22:31.799647----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:24:43.418598----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:26:38.488216----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:29:20.752591----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:29:33.622581----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:32:34.452852----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:33:01.372745----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:33:58.006088----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:34:22.547859----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:34:50.960614----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:36:04.098593----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:37:00.259030----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:38:08.524706----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:40:31.607255----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 12:41:01.038366----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:42:19.995944----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:44:35.549263----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 12:46:34.665245----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:46:46.514761----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:47:26.169363----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:47:51.156860----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 12:49:41.376086----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:35:57.844035----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:36:08.427065----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:36:16.719466----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:36:26.385511----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:36:37.931045----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:36:47.554342----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:36:57.435390----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:37:07.652557----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:37:16.984183----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:37:23.887573----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:37:31.545410----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:37:46.023291----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:37:57.696437----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:38:10.176242----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:38:19.465408----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:38:31.537072----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:38:41.067163----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:38:51.849256----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:39:01.690436----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:39:13.674186----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:39:22.288594----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:39:36.231672----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:39:45.037098----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:39:55.643875----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:40:04.869593----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:40:15.897688----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:40:25.325433----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:40:40.806918----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:40:50.344385----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:41:01.330293----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:41:12.345161----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:41:22.312014----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:41:32.641671----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:41:44.483308----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:41:54.158166----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:42:04.591069----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:42:07.820985----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:42:15.129475----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:42:25.639624----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:42:36.475548----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:42:47.323632----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:42:59.345985----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:43:09.505266----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:43:23.731179----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:43:33.442904----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:43:46.741352----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:43:58.128908----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:44:11.464287----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:44:23.015450----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:44:32.434132----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:44:43.914620----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:44:57.423342----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:45:09.334180----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:45:32.887143----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:45:52.142864----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:48:09.140278----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:50:56.599418----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:54:18.090736----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:56:24.409134----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 13:58:20.151945----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:58:30.799743----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 13:58:57.025092----------
+Message: Unable to locate element: .HeartAnimation
+
+-----------2019-11-12 14:00:57.194772----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:01:14.368344----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:01:36.850997----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 14:05:20.554827----------
+Message: Unable to locate element: .HeartAnimation
+
+-----------2019-11-12 14:06:30.044389----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 14:06:48.440565----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 14:06:57.012198----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:07:33.734061----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:07:58.828268----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 14:08:19.903469----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:09:32.949279----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:09:56.900658----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:10:27.249022----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:12:18.025716----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:25:28.142173----------
+Message: Timeout loading page after 300000ms
+
+-----------2019-11-12 14:26:06.724341----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:27:56.337105----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:28:35.051633----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:29:31.820154----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:31:01.139360----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:31:54.951741----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:32:16.019612----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:33:17.181433----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 14:33:35.665364----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:35:14.587805----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:36:04.210775----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 14:37:39.044615----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 18:58:14.915669----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 18:58:38.690795----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:00:30.574312----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:00:40.342864----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:03:19.585403----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:04:29.341864----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:05:13.231165----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:09:00.583472----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:09:12.707794----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:09:51.869908----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:11:10.263964----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:12:38.650498----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:12:50.307862----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:15:51.070123----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:17:08.163016----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:20:12.711202----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:20:39.506354----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:21:47.536711----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:22:29.527717----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:23:28.227383----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:25:03.145399----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:27:28.792304----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:27:40.709108----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:32:14.962509----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:32:27.633404----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:33:30.275140----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:36:04.643795----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:36:20.106389----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 19:37:05.258119----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 19:39:32.486642----------
+Message: Unable to locate element: .HeartAnimation
+
+-----------2019-11-12 22:09:45.462888----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:10:37.175119----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:12:34.468122----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:13:26.684860----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:13:32.023465----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:13:41.687832----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:13:53.126125----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:15:13.827688----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:15:59.221565----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:17:18.314200----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:17:32.114256----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:19:30.752200----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:19:45.558803----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:21:34.545526----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:22:03.881552----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:23:33.487706----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:23:39.418382----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:25:10.098997----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:27:11.829746----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 22:29:50.929628----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:30:11.946582----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:30:53.280483----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:31:34.139886----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:32:12.017930----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:33:45.666408----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:33:51.525063----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:38:00.276061----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-12 22:38:38.169937----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:40:36.313631----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:41:08.449132----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:42:18.891347----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:43:03.602167----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:44:12.539010----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:47:07.510693----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:53:49.937682----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-12 22:54:12.815065----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:57:29.070062----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:58:36.218367----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-12 22:59:28.557252----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:35:37.951069----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:36:05.801848----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:36:47.029772----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:37:03.966699----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:37:46.935974----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:38:17.699402----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:38:36.089400----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:39:05.273363----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:39:12.023131----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:39:40.569035----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:40:29.872869----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:40:49.340957----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:41:06.365977----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:41:24.849723----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:41:42.989731----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:41:50.192610----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:55:12.952953----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:55:38.780197----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:57:08.716623----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 12:57:35.533186----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:57:41.798600----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 12:58:18.797341----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:02:20.143860----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:05:26.925758----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:07:22.855671----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:07:30.089805----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:07:42.026994----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:09:40.743043----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:11:58.907232----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:12:54.482940----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:15:14.364699----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:15:30.207924----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:17:45.281909----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:18:03.043898----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:19:06.385491----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:19:40.934701----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:25:40.872341----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:28:18.781138----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:29:27.312908----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:31:26.434601----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-13 13:33:10.807408----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-13 13:35:13.299264----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 12:53:36.049707----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 12:54:33.117317----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 12:55:15.296870----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 12:55:57.670623----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 12:56:09.217112----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 12:57:11.914685----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 12:57:40.195078----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 12:57:50.866630----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:01:55.673821----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:02:28.959047----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:02:41.655119----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:04:07.692230----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:04:18.862044----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:04:49.392368----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:06:04.571933----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:06:42.908362----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:07:50.265698----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:08:15.065780----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 13:08:45.441173----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:08:58.737642----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:11:28.484930----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 13:28:23.324233----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 13:29:24.338010----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 13:33:14.861311----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:33:39.766808----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:34:04.268390----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:34:36.454917----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:34:48.282683----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:34:56.266816----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:35:05.079032----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:36:01.722272----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:36:39.972588----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:37:04.909258----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:37:37.265186----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:38:33.716599----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:38:44.150107----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:40:07.106181----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:40:44.870662----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:41:10.305215----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:41:34.179492----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:41:55.210105----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:42:29.775513----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:42:58.009031----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:43:21.183384----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:44:34.572281----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:45:17.315026----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:45:26.708795----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:45:37.069921----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:46:27.360318----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:47:02.917123----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:47:13.309960----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:47:22.629390----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:47:35.417844----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:47:44.548864----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:48:14.368745----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:50:45.082974----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:51:08.238524----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:51:28.377872----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:52:13.314013----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:52:42.756070----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:53:48.545281----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:54:01.326140----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 13:54:18.075632----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:54:36.543822----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:55:37.433549----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:56:25.752546----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:56:58.095316----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:57:16.313513----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:58:00.987990----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:59:21.844865----------
+Message: Element <button class="ProfileTweet-actionButton  js-actionButton js-actionRetweet" type="button"> could not be scrolled into view
+
+-----------2019-11-15 13:59:47.328758----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 14:00:06.065231----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:00:28.767669----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:00:55.992065----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:01:21.004994----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 14:01:29.337319----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:02:49.386225----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:03:08.320247----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:03:29.502225----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:03:50.629367----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:05:06.733264----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:05:32.576228----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:06:55.687528----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:07:18.730047----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:07:42.151216----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:08:00.510031----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:08:20.540674----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:08:59.412948----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:09:19.927955----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:09:55.024086----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:10:57.037830----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:11:18.370778----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:11:45.564121----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 14:12:03.022231----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:12:16.224953----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 14:14:31.914307----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:14:49.741895----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:15:05.171886----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 14:15:23.686949----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:15:37.264663----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:16:49.823460----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-15 14:17:10.260340----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:17:23.291196----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 14:17:48.099569----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:19:00.687107----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 14:19:18.577193----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:14:57.392581----------
+Message: Timeout loading page after 300000ms
+
+-----------2019-11-15 15:17:36.736768----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:18:34.978399----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:23:32.546571----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:28:53.983296----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:31:36.188826----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:33:50.564017----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:38:02.797310----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:39:58.920136----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:40:19.039574----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:41:11.369476----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:44:43.714961----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:46:05.223091----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:46:29.457072----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:47:11.117715----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:48:50.386979----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:49:33.957627----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:50:45.142948----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:51:38.539180----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:54:37.871842----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:56:15.420434----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:56:35.826065----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-15 15:56:54.954445----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:57:34.796987----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:57:54.281242----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:58:11.265103----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:58:33.826923----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:58:52.047953----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 15:59:59.134442----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 16:00:27.470525----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 16:00:45.308574----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 16:01:02.214311----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 16:02:35.018077----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 16:02:56.173688----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-15 16:04:23.697111----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 21:19:40.447270----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 21:20:08.864928----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:24:36.290398----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:24:39.868406----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:26:27.025345----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:36:00.622047----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 21:36:33.466258----------
+Message: Element <span class="RetweetDialog-retweetActionLabel"> could not be scrolled into view
+
+-----------2019-11-16 21:36:40.903517----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:39:34.892910----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:42:07.205542----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-16 21:43:42.967062----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 21:43:50.076575----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-16 21:44:41.475290----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:45:01.142886----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 21:45:20.547945----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:46:20.177113----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 21:46:39.583088----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:50:31.802785----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 21:58:25.290383----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-16 22:23:26.185190----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 22:29:59.365924----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-16 22:36:44.135768----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 11:28:53.483941----------
+Message: Failed to decode response from marionette
+
+-----------2019-11-17 11:29:41.377738----------
+Message: Failed to convert data to an object
+
+-----------2019-11-17 11:29:58.852210----------
+Message: Failed to decode response from marionette
+
+-----------2019-11-17 11:32:33.221308----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 11:33:56.340447----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 11:41:35.155607----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 11:47:47.621458----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 11:53:43.531475----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 11:57:33.870722----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 12:08:37.591350----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 12:33:29.948306----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 12:35:08.209561----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-17 12:41:00.943398----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 12:42:34.577597----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:04:48.877139----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:07:14.150594----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:13:22.104918----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 13:18:16.873978----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:20:54.963696----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:22:15.776777----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:30:32.398533----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:38:43.333833----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:46:58.112843----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-17 13:54:38.722293----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 14:34:13.272141----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 14:49:07.115454----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 14:53:24.124819----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 15:20:38.866592----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-17 15:31:12.935042----------
+Message: Failed to decode response from marionette
+
+-----------2019-11-18 09:21:41.383486----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:24:11.063631----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:25:52.540232----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:29:16.682317----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:29:54.558099----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:30:04.682774----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:31:49.895051----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:34:45.541056----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:34:54.993884----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:35:21.162927----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:38:22.378327----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:38:57.611576----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:41:37.539964----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
+-----------2019-11-18 09:41:58.242427----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:42:20.590449----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:42:28.933931----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:43:02.573482----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:44:50.261517----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 09:49:16.035732----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:44:32.495405----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:44:37.792113----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:48:46.248202----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:48:50.885272----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:48:54.359058----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:49:15.204425----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:49:51.827214----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:58:19.013107----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 12:59:20.348858----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 13:02:01.124180----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 13:05:28.486754----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 13:12:10.696583----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 13:17:55.079039----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 13:37:49.490623----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 15:04:45.655188----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 15:06:36.955624----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 15:28:24.255222----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 15:46:34.975239----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 17:41:24.009976----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 17:46:43.992001----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 17:56:35.052241----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 17:59:21.006383----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 18:03:32.546333----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 18:06:13.168072----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-18 20:38:01.097731----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 20:41:17.067465----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 20:55:59.158254----------
+Message: Unable to locate element: .HeartAnimation
+
+-----------2019-11-18 21:12:13.015429----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-18 21:15:43.022796----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-19 08:52:33.090269----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 08:53:58.141613----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 08:56:46.793483----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 08:56:51.032278----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:09:26.808963----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:16:20.040270----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:21:28.334162----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:21:38.098238----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:21:41.642719----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:24:41.307062----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:27:45.237748----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:30:21.917672----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 09:32:53.061531----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 11:46:41.326114----------
+Message: Element <div class="HeartAnimation"> could not be scrolled into view
+
+-----------2019-11-19 13:50:29.947756----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 13:50:51.892302----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 13:51:27.315187----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 13:52:50.039504----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 13:55:13.926870----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 13:56:57.952955----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
+-----------2019-11-19 13:57:43.596210----------
+Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
+
