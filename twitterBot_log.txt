@@ -2944,3 +2944,12 @@ Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) 
 -----------2019-11-19 13:57:43.596210----------
 Message: Unable to locate element: span.user-actions-follow-button:nth-child(2) > button:nth-child(1)
 
+-----------2019-11-19 14:09:23.914013----------
+Message: Element <button class="
+    EdgeButton
+    EdgeButton--secondary
+    
+    EdgeButton--medium 
+    button-text
+    follow-text" type="button"> could not be scrolled into view
+
