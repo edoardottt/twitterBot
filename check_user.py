@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -26,17 +25,15 @@ def create_user(conn, data,username):
 # check if user in input exists in database.db
 def check_if_user_exists(username,password):
     if(db_is_new):
-        print('Error n.3')
-        print('Noone database detected.')
-        print('Execute the initdb.py file by typing in your command line:')
-        print('python initdb.py')
+        usage.print_usage(5)
     else:
         conn = sqlite3.connect(db_filename)
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
+        p = hashlib.sha256(password.encode('utf-8')).hexdigest()
+        cursor.execute("SELECT * FROM users WHERE username = ? and password= ?", (username,p))
         data=cursor.fetchone()
         if (data==None):
-            cred = (username,password)
+            cred = (username,p)
             create_user(conn,cred,username)
             return False
         else:

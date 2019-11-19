@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# twitterBot v1.3.3.2 🤖
-A Twitter Bot made by me using Python and some its libriaries.
-
-=======
 # twitterBot 🤖
 A Twitter Bot made by me using Python and some its libriaries.
 
@@ -11,7 +6,6 @@ A Twitter Bot made by me using Python and some its libriaries.
 ![win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
->>>>>>> e76c079a5db9b6ec7492b60b456307c099c71369
 -------------------------------------------------
 DESCRIPTION 🔦 
 -------------------------------------------------
@@ -63,11 +57,7 @@ REQUIREMENTS 📣
 
         - Mozilla Firefox
 
-<<<<<<< HEAD
-        - Python >= 3.6
-=======
         - Python >= 3.0
->>>>>>> e76c079a5db9b6ec7492b60b456307c099c71369
 
         - selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
@@ -148,13 +138,12 @@ Help doc.:
 
         python twitterbot.py -h
         
-<<<<<<< HEAD
-=======
+
 Follow the followers of an user:
         
         python twitterbot.py -u replace_your_email@mail.com -f edoardottt1
         
->>>>>>> e76c079a5db9b6ec7492b60b456307c099c71369
+
 -------------------------------------------------
 DOWNLOAD 📡
 -------------------------------------------------
