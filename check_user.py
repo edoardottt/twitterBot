@@ -11,6 +11,8 @@ This file is under MIT License.
 
 import os
 import sqlite3
+import usage
+import hashlib
 
 db_filename = 'database.db'
 db_is_new = not os.path.exists(db_filename)

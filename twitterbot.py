@@ -4,7 +4,7 @@ Created on Sun Jul  7 10:12:13 2019
 
 @author: edoardottt
 
-version = 1.3.3.2
+version = 1.3.3.3
 
 
 This is the main file.
@@ -33,7 +33,7 @@ my_flag = False     # True if the -m option has been entered
 info_flag = False   # True if the -i option has been entered
 help_flag = False   # True if the -h option has been entered
 follow_flag = False # True if the -f option has been entered
-limit = 5000   # Limit of the links crawled
+limit = 1000   # Limit of the links crawled
 
 #required libraries-----------------------------------------------
 import time
