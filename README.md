@@ -157,6 +157,11 @@ Download by Browser on: https://github.com/edoardottt/twitterBot
 VERSIONING :books:
 --------------------------------------------
 
+**[v1.3.3.3](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.3):**
+
+        ADDED:
+                - Security bugs fixed
+                
 **[v1.3.3.2](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.2):**
 
         ADDED:
