@@ -138,6 +138,10 @@ Help doc.:
 
         python twitterbot.py -h
         
+Follow the followers of an user:
+        
+        python twitterbot.py -u replace_your_email@mail.com -f edoardottt1
+        
 -------------------------------------------------
 DOWNLOAD 📡
 -------------------------------------------------
