@@ -9,7 +9,7 @@ A Twitter Bot made by me using Python and some its libriaries.
 -------------------------------------------------
 FOLLOW ME 📈
 -------------------------------------------------
-<a href="https://twitter.com/edoardottt1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @edoardottt1</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/edoardottt1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @edoardottt1</a>
 
 -------------------------------------------------
 DESCRIPTION 🔦 
