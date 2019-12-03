@@ -177,7 +177,7 @@ VERSIONING :books:
         ADDED:
                 - Refactoring
                 - Added dynamical prints
-                - Setted the plot title
+                - Set the plot title
                 - Fixed some knows bugs (limit print, typing errors)
 
 **[v1.3.3](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3):**
