@@ -8,7 +8,7 @@ version = 1.3.3.3
 
 
 This is the main file.
-This file must be execute from the command line because It have to read the input arguments (via getopt).
+This file must be execute from the command line because It has to read the input arguments (via getopt).
 It searches for tweet links found in your personal Feed/via search input field.
 It can: Put likes on tweets and retweets them.
 It defines a class called TwitterBot.
