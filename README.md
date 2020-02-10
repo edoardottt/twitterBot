@@ -13,7 +13,7 @@ FOLLOW ME 📈
 -------------------------------------------------
 <a href="https://twitter.com/edoardottt1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @edoardottt1</a>
 
-**JUST REACHED 500 FOLLOWERS!**
+**JUST REACHED 550 FOLLOWERS!**
 
 -------------------------------------------------
 DESCRIPTION 🔦 
