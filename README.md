@@ -64,15 +64,11 @@ DOES IT REALLY WORKS? :bar_chart:
 REQUIREMENTS 📣
 -----------------------------------------------------
 
-        - Mozilla Firefox
-
-        - Python >= 3.0
-
-        - selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
-
-        - matplotlib (python -m pip install -U matplotlib)
-
-        - It works only with desktop-type Twitter website window
+- Mozilla Firefox
+- Python >= 3.0
+- selenium (pip install selenium) OR [geckodriver](https://github.com/mozilla/geckodriver/releases)
+- matplotlib (python -m pip install -U matplotlib)
+- It works only with desktop-type Twitter website window
 
 -------------------------------------------------
 USAGE 🚀
