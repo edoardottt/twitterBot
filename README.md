@@ -9,13 +9,6 @@ A Twitter Bot made by me using Python and some its libriaries.
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
 -------------------------------------------------
-FOLLOW ME 📈
--------------------------------------------------
-<a href="https://twitter.com/edoardottt1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @edoardottt1</a>
-
-**JUST REACHED 550 FOLLOWERS!**
-
--------------------------------------------------
 DESCRIPTION 🔦 
 -------------------------------------------------
 
