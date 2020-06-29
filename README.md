@@ -116,28 +116,28 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
         
 **Some examples:**
 
-To start the bot searching for some words:
+- To start the bot searching for some words:
 
         python twitterbot.py -u replace_your_email@mail.com -k trend,topics,twitter
  
-To start the bot with your feed:
+- To start the bot with your feed:
 
         python twitterbot.py -u replace_your_email@mail.com -m
  
-To see your account bot statistics with a chart:
+- To see your account bot statistics with a chart:
 
         python twitterbot.py -u replace_your_email@mail.com -s
 
-To see info:
+- To see info:
 
         python twitterbot.py -i
         
-Help doc.:
+- Help doc.:
 
         python twitterbot.py -h
         
 
-Follow the followers of an user:
+- Follow the followers of an user:
         
         python twitterbot.py -u replace_your_email@mail.com -f edoardottt1
         
