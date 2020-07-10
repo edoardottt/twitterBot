@@ -8,9 +8,8 @@ A Twitter Bot made by me using Python and some its libriaries.
 ![win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
--------------------------------------------------
 DESCRIPTION 🔦 
--------------------------------------------------
+--------
 
 It uses selenium, matplotlib, getpass and other famous python libraries.
 
@@ -41,9 +40,9 @@ When It finish, It stores all the likes and retweets count in a SQLite3 database
 
 With the -s option (only if the password matches the word stored in the database on the same record of that username) It displays (with the help of matplotlib) a chart that shows the amount of likes, retweets and followers per day.
 
--------------------------------------------------
-DOES IT REALLY WORKS? :bar_chart:
--------------------------------------------------
+
+DOES IT REALLY WORKS? 📊
+----------
 **Take a look**
 
 ![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
@@ -51,11 +50,10 @@ DOES IT REALLY WORKS? :bar_chart:
 ![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
 
 
-![my insight (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
+![my insights (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
 
------------------------------------------------------
 REQUIREMENTS 📣
------------------------------------------------------
+---------
 
 - Mozilla Firefox
 - Python >= 3.0
@@ -63,9 +61,8 @@ REQUIREMENTS 📣
 - matplotlib (python -m pip install -U matplotlib)
 - It works only with desktop-type Twitter website window
 
--------------------------------------------------
 USAGE 🚀
--------------------------------------------------
+-------
 
 Assuming you are in the same folder of the scripts and you run them with **python3**:
 
@@ -142,18 +139,17 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
         python twitterbot.py -u replace_your_email@mail.com -f edoardottt1
         
 
--------------------------------------------------
+
 DOWNLOAD 📡
--------------------------------------------------
+---------
 
 GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
 
 Download by Browser on: https://github.com/edoardottt/twitterBot
 
 
-----------------------------------------------
-VERSIONING :books:
---------------------------------------------
+VERSIONING 📊
+---------
 
 **[v1.3.3.3](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.3):**
 
@@ -236,11 +232,10 @@ VERSIONING :books:
 
         - First release
 
---------------------------
-If you liked it drop a :star:
---------------------------
+If you liked it drop a 🌟
+-------
 
 https://www.edoardoottavianelli.it for contact me.
 
 
-      Edoardo Ottavianelli ©
+                                                                                 Edoardo Ottavianelli ©
