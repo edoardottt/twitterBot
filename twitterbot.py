@@ -21,7 +21,8 @@ This file is under MIT License.
 """
 
 
-#VARIABLES TO CHANGE-----------------------------
+####################### VARIABLES ##########################
+
 email_email = '' # user's username
 email_password = '' # user's password
 password_flag = False   # True if the password has been entered
@@ -34,8 +35,10 @@ info_flag = False   # True if the -i option has been entered
 help_flag = False   # True if the -h option has been entered
 follow_flag = False # True if the -f option has been entered
 limit = 1000   # Limit of the links crawled
+website = "https://github.com/edoardottt/twitterBot"
+version = "v1.3.3.3"
 
-#required libraries-----------------------------------------------
+###################### REQUIRED LIBRARIES ###################
 import time
 import getopt
 import socket
@@ -45,7 +48,19 @@ import datetime
 import check_user,add_result,analyze_stat
 import sys,usage
 
-#write log into log file
+#print presentation
+def intro(website, version):
+    logo = ''' _            _ _   _            ____        _   
+| |___      _(_) |_| |_ ___ _ __| __ )  ___ | |_ 
+| __\ \ /\ / / | __| __/ _ \ '__|  _ \ / _ \| __|
+| |_ \ V  V /| | |_| ||  __/ |  | |_) | (_) | |_ 
+ \__| \_/\_/ |_|\__|\__\___|_|  |____/ \___/ \__|
+                                                 '''
+    print(logo)
+    print(website)
+    print(version)
+    
+#write logs into log file
 def write_log(ex):
     f = open("twitterBot_log.txt",'a+')
     f.write('-----------'+str(datetime.datetime.now())+'----------\n')
@@ -58,6 +73,8 @@ def print_wait_links():
         print('Collecting links'+'.'*i,end='\r')
         time.sleep(1)
     print('')
+
+################# IMPORT (OR DOWNLOAD) EXTERNAL LIBRARIES ##############
 try:
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
@@ -65,7 +82,8 @@ except Exception as ex:
     write_log(ex)
     usage.print_usage(3)
 
-# options input  
+################# READ INPUT FROM CLI ################
+intro(website, version)
 try:
     options,remainder =getopt.getopt(sys.argv[1:], 'u:k:smihf:',['username','keywords','stat','mine','info','help','follow'])  # all the options allowed
     for opt, arg in options:
@@ -107,7 +125,7 @@ def check_connection(host="8.8.8.8", port=53):
         write_log(ex)
         return False
 
-# twitterBot class definition
+######################### TWITTERBOT CLASS ##########################
 class TwitterBot:
     
     def __init__(self, username, password,likes,retweets,keywords,followers):
@@ -119,16 +137,17 @@ class TwitterBot:
         self.keywords = keywords
         self.links = []
         self.bot = webdriver.Firefox()
-        
-    def generate_random(self):  # It returns a random value between 5 and 8. That number indicates the seconds to be wait 
+    
+    # It returns a random value between 5 and 8. That number indicates the seconds to be wait 
+    def generate_random(self):
         rand = random.randint(5,8)
         return rand
-    def generate_mid_random(self):  # Like a coin toss. 1/2 True - 1/2 False
+    
+    # Like a coin toss. 1/2 True - 1/2 False
+    def generate_mid_random(self):
         rand = random.randint(1,2)
-        if(rand == 1):
-            return True
-        else:
-            return False
+        if(rand == 1): return True
+        return False
     
     def close(self):
         self.bot.close()
@@ -244,7 +263,8 @@ class TwitterBot:
             time.sleep(connection)
         print('')
         print('Finished!')
-        
+
+###################### CREATE A BOT AND LOGIN ####################
 def build_Edo():
     email_password = getpass.getpass('Insert password for ' +email_email +':') # password input via getpass
     edoBot = TwitterBot(email_email,email_password,0,0,keywords,0) #create the bot
@@ -259,6 +279,8 @@ def build_Edo():
             print('Logged in as '+edoBot.username+' !')
     return edoBot
 
+
+################### READ OPTIONS AND EXECUTE ACTIONS #######################
 # if -u and ( -m OR -k)
 if((email_email!='')and(not stat_flag) and(not follow_flag) and((my_flag and (not keywords_flag))or(keywords_flag and (not my_flag)))):
     
@@ -273,7 +295,7 @@ if((email_email!='')and(not stat_flag) and(not follow_flag) and((my_flag and (no
         edoBot.close()
         timee = datetime.datetime.now()
         add_result.add_stat(edoBot.username,timee,edoBot.likes,edoBot.retweets,edoBot.followers)
-        
+
 # if -u and -s 
 elif((email_email!='')and(not keywords_flag)and stat_flag and(not my_flag) and(not info_flag) and(not help_flag)and(not follow_flag)):
     email_password = getpass.getpass('Insert password for ' +email_email +':') # password input via getpass
