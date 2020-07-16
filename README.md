@@ -11,7 +11,7 @@ A Twitter Bot made by me using Python and some its libriaries.
 GET STARTED 🎉
 --------
 
-- [Download this repo]
+- Download this repo and open a terminal inside the main folder
 
 - Install the required libraries: ```pip install -r requirements.txt```
 
