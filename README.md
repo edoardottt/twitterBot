@@ -8,6 +8,37 @@ A Twitter Bot made by me using Python and some its libriaries.
 ![win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
+GET STARTED 🎉
+--------
+
+- [Download this repo]
+
+- Install the required libraries: ```pip install -r requirements.txt```
+
+- To start the bot searching for some keywords:
+
+   ```python twitterbot.py -u YOUR-EMAIL@mail.com -k trend,topics,twitter```
+ 
+- To start the bot with your feed:
+
+   ```python twitterbot.py -u YOUR-EMAIL@mail.com -m```
+ 
+- To see your account bot statistics with a chart:
+
+   ```python twitterbot.py -u YOUR-EMAIL@mail.com -s```
+
+- To see info:
+
+   ```python twitterbot.py -i```
+        
+- Help doc.:
+
+   ```python twitterbot.py -h```   
+
+- Follow the followers of an user:
+        
+   ```python twitterbot.py -u YOUR-EMAIL@mail.com -f edoardottt2```
+
 DESCRIPTION 🔦 
 --------
 
@@ -110,35 +141,6 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
         followers of that username and it tries to follow them.
 
         Insert -f username
-        
-**Some examples:**
-
-- To start the bot searching for some words:
-
-        python twitterbot.py -u replace_your_email@mail.com -k trend,topics,twitter
- 
-- To start the bot with your feed:
-
-        python twitterbot.py -u replace_your_email@mail.com -m
- 
-- To see your account bot statistics with a chart:
-
-        python twitterbot.py -u replace_your_email@mail.com -s
-
-- To see info:
-
-        python twitterbot.py -i
-        
-- Help doc.:
-
-        python twitterbot.py -h
-        
-
-- Follow the followers of an user:
-        
-        python twitterbot.py -u replace_your_email@mail.com -f edoardottt1
-        
-
 
 DOWNLOAD 📡
 ---------
