@@ -8,7 +8,7 @@ A Twitter Bot made by me using Python and some its libriaries.
 ![win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
-GET STARTED 🎉
+Get started 🎉
 --------
 
 - Download this repo and open a terminal inside the main folder
@@ -39,7 +39,7 @@ GET STARTED 🎉
         
    ```python twitterbot.py -u YOUR-EMAIL@mail.com -f edoardottt2```
 
-DESCRIPTION 🔦 
+Description 🔦 
 --------
 
 It uses selenium, matplotlib, getpass and other famous python libraries.
@@ -72,7 +72,7 @@ When It finish, It stores all the likes and retweets count in a SQLite3 database
 With the -s option (only if the password matches the word stored in the database on the same record of that username) It displays (with the help of matplotlib) a chart that shows the amount of likes, retweets and followers per day.
 
 
-DOES IT REALLY WORKS? 📊
+Does it really works? 📊
 ----------
 **Take a look**
 
@@ -83,7 +83,7 @@ DOES IT REALLY WORKS? 📊
 
 ![my insights (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
 
-REQUIREMENTS 📣
+Requirements 📣
 ---------
 
 - Mozilla Firefox
@@ -92,7 +92,7 @@ REQUIREMENTS 📣
 - matplotlib (python -m pip install -U matplotlib)
 - It works only with desktop-type Twitter website window
 
-USAGE 🚀
+Usage 🚀
 -------
 
 Assuming you are in the same folder of the scripts and you run them with **python3**:
@@ -142,7 +142,7 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
 
         Insert -f username
 
-DOWNLOAD 📡
+Download 📡
 ---------
 
 GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
@@ -150,7 +150,7 @@ GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
 Download by Browser on: https://github.com/edoardottt/twitterBot
 
 
-VERSIONING 📊
+Versioning 📊
 ---------
 
 **[v1.3.3.3](https://github.com/edoardottt/twitterBot/releases/tag/v1.3.3.3):**
