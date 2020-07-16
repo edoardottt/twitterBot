@@ -14,6 +14,12 @@ Get started 🎉
 
 - Install the required libraries: ```pip install -r requirements.txt```
 
+- ONLY FOR LINUX
+
+    - [Download the latest release of geckodriver](https://github.com/mozilla/geckodriver/releases)
+      
+    - Execute this ```export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step```
+
 - To start the bot searching for some keywords:
 
    ```python twitterbot.py -u YOUR-EMAIL@mail.com -k trend,topics,twitter```
