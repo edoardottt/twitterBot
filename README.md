@@ -46,6 +46,16 @@ Get started 🎉
         
    ```python twitterbot.py -u YOUR-EMAIL@mail.com -f edoardottt2```
 
+Does it really works? 📊
+----------
+**Take a look**
+
+![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
+
+![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
+
+![my insights (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
+
 Description 🔦 
 --------
 
@@ -77,18 +87,6 @@ Instead for big numbers, most trending, with high content keywords and so if you
 When It finish, It stores all the likes and retweets count in a SQLite3 database called database.db
 
 With the -s option (only if the password matches the word stored in the database on the same record of that username) It displays (with the help of matplotlib) a chart that shows the amount of likes, retweets and followers per day.
-
-
-Does it really works? 📊
-----------
-**Take a look**
-
-![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
-
-![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
-
-
-![my insights (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
 
 Requirements 📣
 ---------
