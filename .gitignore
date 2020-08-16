@@ -1,6 +1,7 @@
 # twitterBot specific
 database.db
 geckodriver
+twitterBot_log.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
