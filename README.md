@@ -155,6 +155,12 @@ GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
 Download by Browser on: https://github.com/edoardottt/twitterBot
 
 
+Contributing
+--------
+
+[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/0)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/0)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/1)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/1)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/2)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/2)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/3)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/3)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/4)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/4)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/5)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/5)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/6)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/6)[![](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/images/7)](https://sourcerer.io/fame/edoardottt/edoardottt/twitterBot/links/7)
+
+
 Versioning 📊
 ---------
 
