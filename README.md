@@ -251,4 +251,4 @@ If you liked it drop a 🌟
 [edoardoottavianelli.it](https://www.edoardoottavianelli.it) for contact me.
 
 
-                                                                                 Edoardo Ottavianelli ©
+                                                               Edoardo Ottavianelli
