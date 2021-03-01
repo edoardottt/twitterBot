@@ -4,18 +4,18 @@ CLI Twitter Bot. It's made to reach more engagement based on your interests.
 
 **CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE**
 
-![version](https://github.com/edoardottt/twitterBot/blob/master/images/version.svg)
-![python-version](https://github.com/edoardottt/twitterBot/blob/master/images/python-version.svg)
-![win-build-success-badge.svg](https://github.com/edoardottt/twitterBot/blob/master/images/win-build-success-badge.svg)
+![version](https://github.com/edoardottt/images/blob/main/twitterbot/version.svg)
+![python-version](https://github.com/edoardottt/images/blob/main/twitterbot/python-version.svg)
+![win-build-success-badge.svg](https://github.com/edoardottt/images/blob/main/twitterbot/win-build-success-badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/01b7f84f58384bad948b281f22f7b730)](https://www.codacy.com/manual/edoardottt/twitterBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edoardottt/twitterBot&amp;utm_campaign=Badge_Grade)
 
 Does it really works? 📊
 ----------
 **Take a look**
 
-![general analytics](https://github.com/edoardottt/twitterBot/blob/master/images/1.JPG)
+![general analytics](https://github.com/edoardottt/images/blob/main/twitterbot/1.JPG)
 
-![followers analytics](https://github.com/edoardottt/twitterBot/blob/master/images/2.JPG)
+![followers analytics](https://github.com/edoardottt/images/blob/main/twitterbot/2.JPG)
 
 ![my insights (from twitterBot)](https://user-images.githubusercontent.com/35783570/61305835-d4272880-a7eb-11e9-93ca-78f6d3a152e3.JPG)
 
