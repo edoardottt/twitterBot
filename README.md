@@ -2,7 +2,7 @@
 
 CLI Twitter Bot. It's made to reach more engagement based on your interests. 
 
-**CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE**
+**⚠️CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE⚠️**
 
 ![version](https://github.com/edoardottt/images/blob/main/twitterbot/version.svg)
 ![python-version](https://github.com/edoardottt/images/blob/main/twitterbot/python-version.svg)
