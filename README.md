@@ -245,10 +245,8 @@ Versioning 📊
 
         - First release
 
-If you liked it drop a 🌟
+License 📝
 -------
 
+This repository is under [MIT License](https://github.com/edoardottt/twitterBot/blob/master/LICENSE).  
 [edoardoottavianelli.it](https://www.edoardoottavianelli.it) for contact me.
-
-
-                                                               Edoardo Ottavianelli
