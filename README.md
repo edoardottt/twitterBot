@@ -1,5 +1,7 @@
 # twitterBot 🤖
 
+https://twitter.com/edoardottt2
+
 CLI Twitter Bot. It's made to reach more engagement based on your interests. 
 
 **⚠️CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE⚠️**
