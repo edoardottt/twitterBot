@@ -152,10 +152,7 @@ Usage: python twitterbot.py -u [value] {-k [values separated by comma] OR -s OR 
 Download 📡
 ---------
 
-GIT command on prompt: git -clone https://github.com/edoardottt/twitterBot.git
-
-Download by Browser on: https://github.com/edoardottt/twitterBot
-
+`git clone https://github.com/edoardottt/twitterBot.git`
 
 Contributing
 --------
