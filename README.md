@@ -159,7 +159,7 @@ Download 📡
 Contributing
 --------
 
-Just open an issue / pull request.
+Just open an [issue](https://github.com/edoardottt/twitterBot/issues) / [pull request](https://github.com/edoardottt/twitterBot/pulls).
 
 
 Versioning 📊
