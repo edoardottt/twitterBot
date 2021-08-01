@@ -1,10 +1,12 @@
 # twitterBot 🤖
 
-https://twitter.com/edoardottt2
+**⚠️CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE⚠️**
+
+Working on a second version...
+
+Follow https://twitter.com/edoardottt2
 
 CLI Twitter Bot. It's made to reach more engagement based on your interests. 
-
-**⚠️CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE⚠️**
 
 ![version](https://github.com/edoardottt/images/blob/main/twitterbot/version.svg)
 ![python-version](https://github.com/edoardottt/images/blob/main/twitterbot/python-version.svg)
