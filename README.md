@@ -1,8 +1,10 @@
 # twitterBot 🤖
 
-**⚠️CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE⚠️**
+# VERSION 2 OUT NOW => [twitterbot2](https://github.com/edoardottt/twitterbot2)
 
-Working on a second version...
+
+
+**⚠️CURRENTLY NOT WORKING DUE TO NEW TWITTER WEBSITE⚠️**
 
 Follow https://twitter.com/edoardottt2
 
